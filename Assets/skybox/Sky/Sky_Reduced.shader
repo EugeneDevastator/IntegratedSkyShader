@@ -9,7 +9,7 @@
 		_altitude("altitude",float)=1.0
 		_sunAngularSize("sun rad angular",Range(0,360))=1.0
 	//	_scatteringCol("Scattering Color",Color ) = (1,1,1,1)
-		_atmosCol("AtmosColor",Color ) = (1,1,1,1)
+	//	_atmosCol("AtmosColor",Color ) = (1,1,1,1)
 	//	_reflectCol("ReflectColor",Color ) = (1,1,1,1)
 	//	_absorbRatio("absorb to reflect ratio",Range(0,0.5))=0.1
 		_plantetRad("Planetary Radius KM",float)=6000.0
