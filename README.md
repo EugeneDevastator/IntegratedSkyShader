@@ -1,7 +1,8 @@
-# IntegratedSkyShader
+# Integrated Sky Shader
 
-repo for preintegrated sky shader with no raymarching.
-That was a proof of concept that worked quite well.
+Welcome to preintegrated sky shader with no raymarching.
+That was a proof of concept that worked quite well. - to see if sky can be approximated via single formula.
+
 1. yes we can make preintegrated sky
 2. mathcad cannot handle integrals so they should be replaced with more simple lerps.
 3. Mie scattering is not working properly, but absolutely doable with single profile
