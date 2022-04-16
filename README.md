@@ -5,7 +5,7 @@ That was a proof of concept that worked quite well. - to see if sky can be appro
 
 Findings:
 1. Yes we can make preintegrated sky
-2. Mathcad cannot handle integrals so they should be replaced with more simple lerps.
+2. Mathcad cannot handle 100% accurate integrals so they should be replaced with more simple lerps.
 3. Mie scattering is not working properly, but absolutely doable with single profile
 
 Next steps to do:
