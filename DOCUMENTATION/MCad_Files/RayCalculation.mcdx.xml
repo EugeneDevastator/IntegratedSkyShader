@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ConversionLog Date="1/19/2025 8:39:05 PM">
+  <WorksheetData SourceVersion="14/15" Source="C:\Eugene\GitHub\IntegratedSkyShader\DOCUMENTATION\MCad_Files\RayCalculation.xmcd" Destination="C:\Eugene\GitHub\IntegratedSkyShader\DOCUMENTATION\MCad_Files\RayCalculation.mcdx" />
+  <Worksheet SourceRegionCount="33" WorksheetIssueCount="0" RegionsWithIssueCount="1"><IssueGroup Category="Display Differences" Count="1"><ConversionIssue Count="1" Text="The display of this operator has changed from the source worksheet. This display change does not affect the accuracy of the results." /></IssueGroup></Worksheet>
+</ConversionLog>

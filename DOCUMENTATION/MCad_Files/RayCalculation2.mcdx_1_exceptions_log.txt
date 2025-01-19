@@ -1,0 +1,751 @@
+File location : C:\Users\omnis\AppData\Local\Temp\WorkSheetConverter_WorksheetConverter_Exception_20250119_203910.log
+
+
+Build Number : 2024.09.24.002
+System Culture : en-US; Current UI Culture : en-US
+Architecture: x64
+
+
+
+Exception data:
+System.Runtime.InteropServices.COMException (0x80040209): The requested file is not a valid Mathcad XML worksheet.
+   at mcautomation.IMathcadWorksheets.Open(String pFileName)
+   at ConverterLoader.XmcdToMcdxConverter.StartConverting(String originalFileName, String destinationFileName, Boolean isSaveToHtml, FileSystemWatcher watcherMcdx, FileSystemWatcher watcherHtml)
+   at ConverterLoader.XmcdToMcdxConverter.TryConvertWorksheet(String originalFileName, String destinationFileName, Boolean isSaveToHtml, FileSystemWatcher watcherMcdx, FileSystemWatcher watcherHtml)
+   at ConverterLoader.XmcdToMcdxConverter.ConvertWorksheet(String originalFileName, String destinationFileName, String mathcadVersion, FileSystemWatcher watcherMcdx, FileSystemWatcher watcherHtml)
+
+
+
+
+
+WorkSheetConverter_WorksheetConverter started at:
+08:26:48 01/19/2025
+
+
+
+WorkSheetConverter_WorksheetConverter was executed with following command line arguments:
+C:\Program Files\PTC\Mathcad Prime 10.0.1.0\WorksheetConverter.exe
+/culture:en-US
+Dump of system environment variables: 
+SESSIONNAME=Console
+ProgramFiles(x86)=C:\Program Files (x86)
+ProgramW6432=C:\Program Files
+ChocolateyInstall=C:\ProgramData\chocolatey
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 140 Stepping 1, GenuineIntel
+OnlineServices=Online Services
+PROCESSOR_ARCHITECTURE=AMD64
+BTK_PVTHEAP_POOL:11428=19dd9f80890
+Path=C:\Program Files\Eclipse Adoptium\jdk-21.0.5.11-hotspot\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\LINQPad8;C:\Eugene\Miniconda;C:\Eugene\Miniconda\Library\mingw-w64\bin;C:\Eugene\Miniconda\Library\usr\bin;C:\Eugene\Miniconda\Library\bin;C:\Eugene\Miniconda\Scripts;C:\Users\omnis\AppData\Local\Microsoft\WindowsApps;C:\Users\omnis\.dotnet\tools;C:\Users\omnis\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\omnis\AppData\Local\Google\Cloud SDK\google-cloud-sdk\bin;C:\Users\omnis\AppData\Local\Muse Hub\lib;C:\Users\omnis\AppData\Local\Microsoft\WinGet\Packages\Schniz.fnm_Microsoft.Winget.Source_8wekyb3d8bbwe;C:\Users\omnis\AppData\Roaming\npm;;C:\Program Files\JetBrains\JetBrains Rider 2024.3\bin;
+BTK_PVTPGM_PGPOOLS:11428=19dd9f861f0
+BTK_PVTPGM_BUCKETS:11428=19dd9f88040
+HOMEPATH=\Users\omnis
+USERDOMAIN_ROAMINGPROFILE=HEALTHPAK
+PROCESSOR_REVISION=8c01
+BTK_PVTPGM_BLKQUEUES:30124=15eff599fd0
+TEMP=C:\Users\omnis\AppData\Local\Temp
+USERPROFILE=C:\Users\omnis
+CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files
+EFC_9768=1
+USERNAME=omnis
+SystemRoot=C:\WINDOWS
+BTK_WIN_TRACEBACK:11428=7ffb96cc2f20
+OneDrive=C:\Users\omnis\OneDrive
+BTK_PVTPGM_PGPOOLS:30124=15eff5961f0
+BTK_WIN_TRACEBACK:30124=7ffb96cc2f20
+CommonProgramFiles=C:\Program Files\Common Files
+BTK_PVTHEAP:11428=19dd9f80000
+__COMPAT_LAYER=DetectorsAppHealth
+ProgramData=C:\ProgramData
+platformcode=KV
+BTK_LIBS_CTX:11428=19dd9f808f0
+PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+COMPUTERNAME=HEALTHPAK
+PTC_D_LICENSE_FILE=C:\ProgramData\PTC\Mathcad Prime\license\MathcadLicense.dat
+BTK_PVTPGM_BUCKETS:30124=15eff598040
+ChocolateyLastPathUpdate=133754006468911028
+CommonProgramW6432=C:\Program Files\Common Files
+JetBrains Rider=C:\Program Files\JetBrains\JetBrains Rider 2024.3\bin;
+TMP=C:\Users\omnis\AppData\Local\Temp
+BTK_LIBS_CTX:30124=15eff5908f0
+ALLUSERSPROFILE=C:\ProgramData
+DriverData=C:\Windows\System32\Drivers\DriverData
+HOMEDRIVE=C:
+windir=C:\WINDOWS
+SystemDrive=C:
+NUMBER_OF_PROCESSORS=8
+OS=Windows_NT
+ZES_ENABLE_SYSMAN=1
+ProgramFiles=C:\Program Files
+ComSpec=C:\WINDOWS\system32\cmd.exe
+BTK_PVTHEAP:30124=15eff590000
+BTK_PVTPGM_BLKQUEUES:11428=19dd9f89fd0
+LOGONSERVER=\\HEALTHPAK
+JAVA_HOME=C:\Program Files\Eclipse Adoptium\jdk-21.0.5.11-hotspot
+PSModulePath=C:\Users\omnis\Documents\WindowsPowerShell\Modules;C:\Users\omnis\AppData\Local\Google\Cloud SDK\google-cloud-sdk\platform\PowerShell
+APPDATA=C:\Users\omnis\AppData\Roaming
+USERDOMAIN=HEALTHPAK
+PROCESSOR_LEVEL=6
+LOCALAPPDATA=C:\Users\omnis\AppData\Local
+BTK_PVTHEAP_POOL:30124=15eff590890
+RegionCode=EMEA
+PUBLIC=C:\Users\Public
+
+
+
+The following Modules were loaded by WorkSheetConverter_WorksheetConverter:Module Name: WorksheetConverter.exe
+File: C:\Program Files\PTC\Mathcad Prime 10.0.1.0\WorksheetConverter.exe; InternalName: WorkSheetConverter.exe; OriginalFilename: WorkSheetConverter.exe; FileVersion: 10.0.1.0; FileDescription: PTC Mathcad Prime 10.0.1.0 XMCD, MCD Converter; Product: PTC Mathcad Prime; ProductVersion: 10.0.1.0; Debug: False; Patched: False; PreRelease: False; PrivateBuild: False; SpecialBuild: False; Language: Language Neutral; 
+Module Memory Size: 40960
+Module Name: ntdll.dll
+File: C:\WINDOWS\SYSTEM32\ntdll.dll; InternalName: ntdll.dll; OriginalFilename: ntdll.dll.mui; FileVersion: 10.0.22621.4249 (WinBuild.160101.0800); FileDescription: NT Layer DLL; Product: Microsoft® Windows® Operating System; ProductVersion: 10.0.22621.4249; Debug: False; Patched: False; PreRelease: False; PrivateBuild: False; SpecialBuild: False; Language: English (United States); 
+Module Memory Size: 2191360
+Module Name: MSCOREE.DLL
+File: C:\WINDOWS\SYSTEM32\MSCOREE.DLL; InternalName: mscoree.dll; OriginalFilename: mscoree.dll; FileVersion: 10.0.22621.1 (WinBuild.160101.0800); FileDescription: Microsoft .NET Runtime Execution Engine; Product: Microsoft® Windows® Operating System; ProductVersion: 10.0.22621.1; Debug: False; Patched: False; PreRelease: False; PrivateBuild: False; SpecialBuild: False; Language: English (United States); 
+Module Memory Size: 438272
+Module Name: KERNEL32.dll
+File: C:\WINDOWS\System32\KERNEL32.dll; InternalName: kernel32; OriginalFilename: kernel32; FileVersion: 10.0.22621.4391 (WinBuild.160101.0800); FileDescription: Windows NT BASE API Client DLL; Product: Microsoft® Windows® Operating System; ProductVersion: 10.0.22621.4391; Debug: False; Patched: False; PreRelease: False; PrivateBuild: False; SpecialBuild: False; Language: English (United States); 
+Module Memory Size: 802816
+Module Name: KERNELBASE.dll
+File: C:\WINDOWS\System32\KERNELBASE.dll; InternalName: Kernelbase.dll; OriginalFilename: Kernelbase.dll.mui; FileVersion: 10.0.22621.4391 (WinBuild.160101.0800); FileDescription: Windows NT BASE API Client DLL; Product: Microsoft® Windows® Operating System; ProductVersion: 10.0.22621.4391; Debug: False; Patched: False; PreRelease: False; PrivateBuild: False; SpecialBuild: False; Language: English (United States); 
+Module Memory Size: 3907584
+Module Name: apphelp.dll
+File: C:\WINDOWS\SYSTEM32\apphelp.dll; InternalName: Apphelp; OriginalFilename: Apphelp; FileVersion: 10.0.22621.1 (WinBuild.160101.0800); FileDescription: Application Compatibility Client Library; Product: Microsoft® Windows® Operating System; ProductVersion: 10.0.22621.1; Debug: False; Patched: False; PreRelease: False; PrivateBuild: False; SpecialBuild: False; Language: English (United States); 
+Module Memory Size: 618496
+Module Name: ADVAPI32.dll
+File: C:\WINDOWS\System32\ADVAPI32.dll; InternalName: advapi32.dll; OriginalFilename: advapi32.dll.mui; FileVersion: 10.0.22621.1 (WinBuild.160101.0800); FileDescription: Advanced Windows 32 Base API; Product: Microsoft® Windows® Operating System; ProductVersion: 10.0.22621.1; Debug: False; Patched: False; PreRelease: False; PrivateBuild: False; SpecialBuild: False; Language: English (United States); 
+Module Memory Size: 729088
+Module Name: msvcrt.dll
+File: C:\WINDOWS\System32\msvcrt.dll; InternalName: msvcrt.dll; OriginalFilename: msvcrt.dll; FileVersion: 7.0.22621.2506 (WinBuild.160101.0800); FileDescription: Windows NT CRT DLL; Product: Microsoft® Windows® Operating System; ProductVersion: 7.0.22621.2506; Debug: False; Patched: False; PreRelease: False; PrivateBuild: False; SpecialBuild: False; Language: English (United States); 
+Module Memory Size: 684032
+Module Name: sechost.dll
+File: C:\WINDOWS\System32\sechost.dll; InternalName: sechost.dll; OriginalFilename: sechost.dll.mui; FileVersion: 10.0.22621.1 (WinBuild.160101.0800); FileDescription: Host for SCM/SDDL/LSA Lookup APIs; Product: Microsoft® Windows® Operating System; ProductVersion: 10.0.22621.1; Debug: False; Patched: False; PreRelease: False; PrivateBuild: False; SpecialBuild: False; Language: English (United States); 
+Module Memory Size: 684032
+Module Name: bcrypt.dll
+File: C:\WINDOWS\System32\bcrypt.dll; InternalName: bcrypt.dll; OriginalFilename: bcrypt.dll.mui; FileVersion: 10.0.22621.1 (WinBuild.160101.0800); FileDescription: Windows Cryptographic Primitives Library; Product: Microsoft® Windows® Operating System; ProductVersion: 10.0.22621.1; Debug: False; Patched: False; PreRelease: False; PrivateBuild: False; SpecialBuild: False; Language: English (United States); 
+Module Memory Size: 163840
+Module Name: RPCRT4.dll
+File: C:\WINDOWS\System32\RPCRT4.dll; InternalName: rpcrt4.dll; OriginalFilename: rpcrt4.dll.mui; FileVersion: 10.0.22621.2506 (WinBuild.160101.0800); FileDescription: Remote Procedure Call Runtime; Product: Microsoft® Windows® Operating System; ProductVersion: 10.0.22621.2506; Debug: False; Patched: False; PreRelease: False; PrivateBuild: False; SpecialBuild: False; Language: English (United States); 
+Module Memory Size: 1130496
+Module Name: mscoreei.dll
+File: C:\Windows\Microsoft.NET\Framework64\v4.0.30319\mscoreei.dll; InternalName: mscoreei.dll; OriginalFilename: mscoreei.dll; FileVersion: 4.8.9065.0 built by: NET481REL1LAST_C; FileDescription: Microsoft .NET Runtime Execution Engine; Product: Microsoft® .NET Framework; ProductVersion: 4.8.9065.0; Debug: False; Patched: False; PreRelease: False; PrivateBuild: True; SpecialBuild: False; Language: English (United States); 
+Module Memory Size: 634880
+Module Name: SHLWAPI.dll
+File: C:\WINDOWS\System32\SHLWAPI.dll; InternalName: SHLWAPI; OriginalFilename: SHLWAPI.DLL.MUI; FileVersion: 10.0.22621.1 (WinBuild.160101.0800); FileDescription: Shell Light-weight Utility Library; Product: Microsoft® Windows® Operating System; ProductVersion: 10.0.22621.1; Debug: False; Patched: False; PreRelease: False; PrivateBuild: False; SpecialBuild: False; Language: English (United States); 
+Module Memory Size: 385024
+Module Name: kernel.appcore.dll
+File: C:\WINDOWS\SYSTEM32\kernel.appcore.dll; InternalName: kernel.appcore.dll; OriginalFilename: kernel.appcore.dll; FileVersion: 10.0.22621.3958 (WinBuild.160101.0800); FileDescription: AppModel API Host; Product: Microsoft® Windows® Operating System; ProductVersion: 10.0.22621.3958; Debug: False; Patched: False; PreRelease: False; PrivateBuild: False; SpecialBuild: False; Language: English (United States); 
+Module Memory Size: 98304
+Module Name: VERSION.dll
+File: C:\WINDOWS\SYSTEM32\VERSION.dll; InternalName: version; OriginalFilename: VERSION.DLL; FileVersion: 10.0.22621.1 (WinBuild.160101.0800); FileDescription: Version Checking and File Installation Libraries; Product: Microsoft® Windows® Operating System; ProductVersion: 10.0.22621.1; Debug: False; Patched: False; PreRelease: False; PrivateBuild: False; SpecialBuild: False; Language: English (United States); 
+Module Memory Size: 40960
+Module Name: clr.dll
+File: C:\Windows\Microsoft.NET\Framework64\v4.0.30319\clr.dll; InternalName: clr.dll; OriginalFilename: clr.dll; FileVersion: 4.8.9282.0 built by: NET481REL1LAST_C; FileDescription: Microsoft .NET Runtime Common Language Runtime - WorkStation; Product: Microsoft® .NET Framework; ProductVersion: 4.8.9282.0; Debug: False; Patched: False; PreRelease: False; PrivateBuild: True; SpecialBuild: False; Language: English (United States); 
+Module Memory Size: 10108928
+Module Name: USER32.dll
+File: C:\WINDOWS\System32\USER32.dll; InternalName: user32; OriginalFilename: user32; FileVersion: 10.0.22621.1 (WinBuild.160101.0800); FileDescription: Multi-User Windows USER API Client DLL; Product: Microsoft® Windows® Operating System; ProductVersion: 10.0.22621.1; Debug: False; Patched: False; PreRelease: False; PrivateBuild: False; SpecialBuild: False; Language: English (United States); 
+Module Memory Size: 1761280
+Module Name: win32u.dll
+File: C:\WINDOWS\System32\win32u.dll; InternalName: Win32u; OriginalFilename: Win32u.DLL; FileVersion: 10.0.22621.4601 (WinBuild.160101.0800); FileDescription: Win32u; Product: Microsoft® Windows® Operating System; ProductVersion: 10.0.22621.4601; Debug: False; Patched: False; PreRelease: False; PrivateBuild: False; SpecialBuild: False; Language: English (United States); 
+Module Memory Size: 155648
+Module Name: GDI32.dll
+File: C:\WINDOWS\System32\GDI32.dll; InternalName: gdi32; OriginalFilename: gdi32; FileVersion: 10.0.22621.4036 (WinBuild.160101.0800); FileDescription: GDI Client DLL; Product: Microsoft® Windows® Operating System; ProductVersion: 10.0.22621.4036; Debug: False; Patched: False; PreRelease: False; PrivateBuild: False; SpecialBuild: False; Language: English (United States); 
+Module Memory Size: 167936
+Module Name: gdi32full.dll
+File: C:\WINDOWS\System32\gdi32full.dll; InternalName: gdi32; OriginalFilename: gdi32; FileVersion: 10.0.22621.4391 (WinBuild.160101.0800); FileDescription: GDI Client DLL; Product: Microsoft® Windows® Operating System; ProductVersion: 10.0.22621.4391; Debug: False; Patched: False; PreRelease: False; PrivateBuild: False; SpecialBuild: False; Language: English (United States); 
+Module Memory Size: 1159168
+Module Name: msvcp_win.dll
+File: C:\WINDOWS\System32\msvcp_win.dll; InternalName: msvcp_win.dll; OriginalFilename: msvcp_win.dll; FileVersion: 10.0.22621.3374 (WinBuild.160101.0800); FileDescription: Microsoft® C Runtime Library; Product: Microsoft® Windows® Operating System; ProductVersion: 10.0.22621.3374; Debug: False; Patched: False; PreRelease: False; PrivateBuild: False; SpecialBuild: False; Language: English (United States); 
+Module Memory Size: 630784
+Module Name: VCRUNTIME140_1_CLR0400.dll
+File: C:\WINDOWS\SYSTEM32\VCRUNTIME140_1_CLR0400.dll; InternalName: vcruntime140_1_clr0400.dll; OriginalFilename: vcruntime140_1_clr0400.dll; FileVersion: 14.32.31326.0; FileDescription: Microsoft® C Runtime Library; Product: Microsoft® Visual Studio®; ProductVersion: 14.32.31326.0; Debug: False; Patched: False; PreRelease: False; PrivateBuild: False; SpecialBuild: False; Language: English (United States); 
+Module Memory Size: 49152
+Module Name: ucrtbase.dll
+File: C:\WINDOWS\System32\ucrtbase.dll; InternalName: ucrtbase.dll; OriginalFilename: ucrtbase.dll; FileVersion: 10.0.22621.3593 (WinBuild.160101.0800); FileDescription: Microsoft® C Runtime Library; Product: Microsoft® Windows® Operating System; ProductVersion: 10.0.22621.3593; Debug: False; Patched: False; PreRelease: False; PrivateBuild: False; SpecialBuild: False; Language: English (United States); 
+Module Memory Size: 1118208
+Module Name: VCRUNTIME140_CLR0400.dll
+File: C:\WINDOWS\SYSTEM32\VCRUNTIME140_CLR0400.dll; InternalName: vcruntime140_clr0400.dll; OriginalFilename: vcruntime140_clr0400.dll; FileVersion: 14.32.31326.0; FileDescription: Microsoft® C Runtime Library; Product: Microsoft® Visual Studio®; ProductVersion: 14.32.31326.0; Debug: False; Patched: False; PreRelease: False; PrivateBuild: False; SpecialBuild: False; Language: English (United States); 
+Module Memory Size: 110592
+Module Name: ucrtbase_clr0400.dll
+File: C:\WINDOWS\SYSTEM32\ucrtbase_clr0400.dll; InternalName: ucrtbase_clr0400.dll; OriginalFilename: ucrtbase_clr0400.dll; FileVersion: 14.32.31326.0; FileDescription: Microsoft® C Runtime Library; Product: Microsoft® Visual Studio®; ProductVersion: 14.32.31326.0; Debug: False; Patched: False; PreRelease: False; PrivateBuild: False; SpecialBuild: False; Language: English (United States); 
+Module Memory Size: 839680
+Module Name: IMM32.DLL
+File: C:\WINDOWS\System32\IMM32.DLL; InternalName: imm32; OriginalFilename: imm32; FileVersion: 10.0.22621.3374 (WinBuild.160101.0800); FileDescription: Multi-User Windows IMM32 API Client DLL; Product: Microsoft® Windows® Operating System; ProductVersion: 10.0.22621.3374; Debug: False; Patched: False; PreRelease: False; PrivateBuild: False; SpecialBuild: False; Language: English (United States); 
+Module Memory Size: 200704
+Module Name: mscorlib.ni.dll
+File: C:\WINDOWS\assembly\NativeImages_v4.0.30319_64\mscorlib\9a860ac99a94a0422dc04d0dd9b0e341\mscorlib.ni.dll; InternalName: mscorlib.dll; OriginalFilename: mscorlib.dll; FileVersion: 4.8.9282.0 built by: NET481REL1LAST_C; FileDescription: Microsoft Common Language Runtime Class Library; Product: Microsoft® .NET Framework; ProductVersion: 4.8.9282.0; Debug: False; Patched: False; PreRelease: False; PrivateBuild: True; SpecialBuild: False; Language: English (United States); 
+Module Memory Size: 23130112
+Module Name: ole32.dll
+File: C:\WINDOWS\System32\ole32.dll; InternalName: OLE32.DLL; OriginalFilename: OLE32.DLL.MUI; FileVersion: 10.0.22621.1 (WinBuild.160101.0800); FileDescription: Microsoft OLE for Windows; Product: Microsoft® Windows® Operating System; ProductVersion: 10.0.22621.1; Debug: False; Patched: False; PreRelease: False; PrivateBuild: False; SpecialBuild: False; Language: English (United States); 
+Module Memory Size: 1724416
+Module Name: combase.dll
+File: C:\WINDOWS\System32\combase.dll; InternalName: COMBASE.DLL; OriginalFilename: COMBASE.DLL.MUI; FileVersion: 10.0.22621.1 (WinBuild.160101.0800); FileDescription: Microsoft COM for Windows; Product: Microsoft® Windows® Operating System; ProductVersion: 10.0.22621.1; Debug: False; Patched: False; PreRelease: False; PrivateBuild: False; SpecialBuild: False; Language: English (United States); 
+Module Memory Size: 3731456
+Module Name: bcryptPrimitives.dll
+File: C:\WINDOWS\System32\bcryptPrimitives.dll; InternalName: bcryptprimitives.dll; OriginalFilename: bcryptprimitives.dll; FileVersion: 10.0.22621.4317 (WinBuild.160101.0800); FileDescription: Windows Cryptographic Primitives Library; Product: Microsoft® Windows® Operating System; ProductVersion: 10.0.22621.4317; Debug: False; Patched: False; PreRelease: False; PrivateBuild: False; SpecialBuild: False; Language: English (United States); 
+Module Memory Size: 503808
+Module Name: uxtheme.dll
+File: C:\WINDOWS\system32\uxtheme.dll; InternalName: UxTheme.dll; OriginalFilename: UxTheme.dll.mui; FileVersion: 10.0.22621.1 (WinBuild.160101.0800); FileDescription: Microsoft UxTheme Library; Product: Microsoft® Windows® Operating System; ProductVersion: 10.0.22621.1; Debug: False; Patched: False; PreRelease: False; PrivateBuild: False; SpecialBuild: False; Language: English (United States); 
+Module Memory Size: 724992
+Module Name: System.ni.dll
+File: C:\WINDOWS\assembly\NativeImages_v4.0.30319_64\System\2b7713af99b3adddc407d1cceeead769\System.ni.dll; InternalName: System.dll; OriginalFilename: System.dll; FileVersion: 4.8.9282.0 built by: NET481REL1LAST_C; FileDescription: .NET Framework; Product: Microsoft® .NET Framework; ProductVersion: 4.8.9282.0; Debug: False; Patched: False; PreRelease: False; PrivateBuild: True; SpecialBuild: False; Language: English (United States); 
+Module Memory Size: 12718080
+Module Name: System.Core.ni.dll
+File: C:\WINDOWS\assembly\NativeImages_v4.0.30319_64\System.Core\1930676c8ce057a26d3ff6706992775a\System.Core.ni.dll; InternalName: System.Core.dll; OriginalFilename: System.Core.dll; FileVersion: 4.8.9277.0 built by: NET481REL1LAST_B; FileDescription: .NET Framework; Product: Microsoft® .NET Framework; ProductVersion: 4.8.9277.0; Debug: False; Patched: False; PreRelease: False; PrivateBuild: True; SpecialBuild: False; Language: English (United States); 
+Module Memory Size: 11030528
+Module Name: WindowsBase.ni.dll
+File: C:\WINDOWS\assembly\NativeImages_v4.0.30319_64\WindowsBase\b241228a77602974054659b2650bc81e\WindowsBase.ni.dll; InternalName: WindowsBase.dll; OriginalFilename: WindowsBase.dll; FileVersion: 4.8.9277.0 built by: NET481REL1LAST_B; FileDescription: WindowsBase.dll; Product: Microsoft® .NET Framework; ProductVersion: 4.8.9277.0; Debug: False; Patched: False; PreRelease: False; PrivateBuild: True; SpecialBuild: False; Language: English (United States); 
+Module Memory Size: 5382144
+Module Name: CRYPTSP.dll
+File: C:\WINDOWS\SYSTEM32\CRYPTSP.dll; InternalName: cryptsp.dll; OriginalFilename: cryptsp.dll; FileVersion: 10.0.22621.3672 (WinBuild.160101.0800); FileDescription: Cryptographic Service Provider API; Product: Microsoft® Windows® Operating System; ProductVersion: 10.0.22621.3672; Debug: False; Patched: False; PreRelease: False; PrivateBuild: False; SpecialBuild: False; Language: English (United States); 
+Module Memory Size: 110592
+Module Name: rsaenh.dll
+File: C:\WINDOWS\system32\rsaenh.dll; InternalName: rsaenh.dll; OriginalFilename: rsaenh.dll.mui; FileVersion: 10.0.22621.1 (WinBuild.160101.0800); FileDescription: Microsoft Enhanced Cryptographic Provider; Product: Microsoft® Windows® Operating System; ProductVersion: 10.0.22621.1; Debug: False; Patched: False; PreRelease: False; PrivateBuild: False; SpecialBuild: False; Language: English (United States); 
+Module Memory Size: 217088
+Module Name: CRYPTBASE.dll
+File: C:\WINDOWS\SYSTEM32\CRYPTBASE.dll; InternalName: cryptbase.dll; OriginalFilename: cryptbase.dll; FileVersion: 10.0.22621.1 (WinBuild.160101.0800); FileDescription: Base cryptographic API DLL; Product: Microsoft® Windows® Operating System; ProductVersion: 10.0.22621.1; Debug: False; Patched: False; PreRelease: False; PrivateBuild: False; SpecialBuild: False; Language: English (United States); 
+Module Memory Size: 49152
+Module Name: PresentationCore.ni.dll
+File: C:\WINDOWS\assembly\NativeImages_v4.0.30319_64\PresentationCore\60b00f939f40b8a42f5cfed7b152e464\PresentationCore.ni.dll; InternalName: PresentationCore.dll; OriginalFilename: PresentationCore.dll; FileVersion: 4.8.9277.0 built by: NET481REL1LAST_B; FileDescription: PresentationCore.dll; Product: Microsoft® .NET Framework; ProductVersion: 4.8.9277.0; Debug: False; Patched: False; PreRelease: False; PrivateBuild: True; SpecialBuild: False; Language: English (United States); 
+Module Memory Size: 15183872
+Module Name: PresentationFramework.ni.dll
+File: C:\WINDOWS\assembly\NativeImages_v4.0.30319_64\Presentatio5ae0f00f#\6bfabb9ef08c2facd5b190ed6d4a71fe\PresentationFramework.ni.dll; InternalName: PresentationFramework.dll; OriginalFilename: PresentationFramework.dll; FileVersion: 4.8.9277.0; FileDescription: PresentationFramework.dll; Product: Microsoft® .NET Framework; ProductVersion: 4.8.9277.0; Debug: False; Patched: False; PreRelease: False; PrivateBuild: False; SpecialBuild: False; Language: Language Neutral; 
+Module Memory Size: 24518656
+Module Name: System.Xaml.ni.dll
+File: C:\WINDOWS\assembly\NativeImages_v4.0.30319_64\System.Xaml\d5583969559631f5917ffe2673823142\System.Xaml.ni.dll; InternalName: System.Xaml.dll; OriginalFilename: System.Xaml.dll; FileVersion: 4.8.9277.0 built by: NET481REL1LAST_B; FileDescription: System.Xaml.dll; Product: Microsoft® .NET Framework; ProductVersion: 4.8.9277.0; Debug: False; Patched: False; PreRelease: False; PrivateBuild: True; SpecialBuild: False; Language: English (United States); 
+Module Memory Size: 2588672
+Module Name: dwrite.dll
+File: C:\WINDOWS\SYSTEM32\dwrite.dll; InternalName: DWrite; OriginalFilename: DWrite; FileVersion: 10.0.22621.1 (WinBuild.160101.0800); FileDescription: Microsoft DirectX Typography Services; Product: Microsoft® Windows® Operating System; ProductVersion: 10.0.22621.1; Debug: False; Patched: False; PreRelease: False; PrivateBuild: False; SpecialBuild: False; Language: English (United States); 
+Module Memory Size: 2568192
+Module Name: wpfgfx_v0400.dll
+File: C:\Windows\Microsoft.NET\Framework64\v4.0.30319\WPF\wpfgfx_v0400.dll; InternalName: wpfgfx_v0400.dll; OriginalFilename: wpfgfx_v0400.dll; FileVersion: 4.8.9277.0 built by: NET481REL1LAST_B; FileDescription: wpfgfx_v0400.dll; Product: Microsoft® .NET Framework; ProductVersion: 4.8.9277.0; Debug: False; Patched: False; PreRelease: False; PrivateBuild: True; SpecialBuild: False; Language: English (United States); 
+Module Memory Size: 1712128
+Module Name: OLEAUT32.dll
+File: C:\WINDOWS\System32\OLEAUT32.dll; InternalName: OLEAUT32.DLL; OriginalFilename: OLEAUT32.DLL; FileVersion: 10.0.22621.3672 (WinBuild.160101.0800); FileDescription: OLEAUT32.DLL; Product: Microsoft® Windows® Operating System; ProductVersion: 10.0.22621.3672; Debug: False; Patched: False; PreRelease: False; PrivateBuild: False; SpecialBuild: False; Language: English (United States); 
+Module Memory Size: 880640
+Module Name: MSVCP140_CLR0400.dll
+File: C:\WINDOWS\SYSTEM32\MSVCP140_CLR0400.dll; InternalName: msvcp140_clr0400.dll; OriginalFilename: msvcp140_clr0400.dll; FileVersion: 14.32.31326.0; FileDescription: Microsoft® C Runtime Library; Product: Microsoft® Visual Studio®; ProductVersion: 14.32.31326.0; Debug: False; Patched: False; PreRelease: False; PrivateBuild: False; SpecialBuild: False; Language: English (United States); 
+Module Memory Size: 581632
+Module Name: PresentationNative_v0400.dll
+File: C:\Windows\Microsoft.NET\Framework64\v4.0.30319\WPF\PresentationNative_v0400.dll; InternalName: PresentationNative_v0400.dll; OriginalFilename: PresentationNative_v0400.dll; FileVersion: 4.8.9277.0 built by: NET481REL1LAST_B; FileDescription: PresentationNative_v0400.dll; Product: Microsoft® .NET Framework; ProductVersion: 4.8.9277.0; Debug: False; Patched: False; PreRelease: False; PrivateBuild: True; SpecialBuild: False; Language: English (United States); 
+Module Memory Size: 1187840
+Module Name: clrjit.dll
+File: C:\Windows\Microsoft.NET\Framework64\v4.0.30319\clrjit.dll; InternalName: clrjit.dll; OriginalFilename: clrjit.dll; FileVersion: 4.8.9282.0 built by: NET481REL1LAST_C; FileDescription: Microsoft .NET Runtime Just-In-Time Compiler; Product: Microsoft® .NET Framework; ProductVersion: 4.8.9282.0; Debug: False; Patched: False; PreRelease: False; PrivateBuild: True; SpecialBuild: False; Language: English (United States); 
+Module Memory Size: 1241088
+Module Name: System.Configuration.ni.dll
+File: C:\WINDOWS\assembly\NativeImages_v4.0.30319_64\System.Configuration\40cb6a1927b9bbae758fbb72eebeda00\System.Configuration.ni.dll; InternalName: System.Configuration.dll; OriginalFilename: System.Configuration.dll; FileVersion: 4.8.9032.0 built by: NET481REL1; FileDescription: System.Configuration.dll; Product: Microsoft® .NET Framework; ProductVersion: 4.8.9032.0; Debug: False; Patched: False; PreRelease: False; PrivateBuild: True; SpecialBuild: False; Language: English (United States); 
+Module Memory Size: 1257472
+Module Name: System.Xml.ni.dll
+File: C:\WINDOWS\assembly\NativeImages_v4.0.30319_64\System.Xml\3049ed54f5372886494255c78f1bd3c8\System.Xml.ni.dll; InternalName: System.Xml.dll; OriginalFilename: System.Xml.dll; FileVersion: 4.8.9032.0 built by: NET481REL1; FileDescription: .NET Framework; Product: Microsoft® .NET Framework; ProductVersion: 4.8.9032.0; Debug: False; Patched: False; PreRelease: False; PrivateBuild: True; SpecialBuild: False; Language: English (United States); 
+Module Memory Size: 9113600
+Module Name: shell32.dll
+File: C:\WINDOWS\System32\shell32.dll; InternalName: SHELL32; OriginalFilename: SHELL32.DLL.MUI; FileVersion: 10.0.22621.4249 (WinBuild.160101.0800); FileDescription: Windows Shell Common Dll; Product: Microsoft® Windows® Operating System; ProductVersion: 10.0.22621.4249; Debug: False; Patched: False; PreRelease: False; PrivateBuild: False; SpecialBuild: False; Language: English (United States); 
+Module Memory Size: 8880128
+Module Name: windows.storage.dll
+File: C:\WINDOWS\SYSTEM32\windows.storage.dll; InternalName: Windows.Storage; OriginalFilename: Windows.Storage.dll.MUI; FileVersion: 10.0.22621.3527 (WinBuild.160101.0800); FileDescription: Microsoft WinRT Storage API; Product: Microsoft® Windows® Operating System; ProductVersion: 10.0.22621.3527; Debug: False; Patched: False; PreRelease: False; PrivateBuild: False; SpecialBuild: False; Language: English (United States); 
+Module Memory Size: 9469952
+Module Name: wintypes.dll
+File: C:\WINDOWS\SYSTEM32\wintypes.dll; InternalName: Windows Base Types DLL; OriginalFilename: WinTypes.dll.mui; FileVersion: 10.0.22621.1 (WinBuild.160101.0800); FileDescription: Windows Base Types DLL; Product: Microsoft® Windows® Operating System; ProductVersion: 10.0.22621.1; Debug: False; Patched: False; PreRelease: False; PrivateBuild: False; SpecialBuild: False; Language: English (United States); 
+Module Memory Size: 1306624
+Module Name: SHCORE.dll
+File: C:\WINDOWS\System32\SHCORE.dll; InternalName: SHCORE; OriginalFilename: SHCORE.dll.mui; FileVersion: 10.0.22621.1 (WinBuild.160101.0800); FileDescription: SHCORE; Product: Microsoft® Windows® Operating System; ProductVersion: 10.0.22621.1; Debug: False; Patched: False; PreRelease: False; PrivateBuild: False; SpecialBuild: False; Language: English (United States); 
+Module Memory Size: 1024000
+Module Name: profapi.dll
+File: C:\WINDOWS\SYSTEM32\profapi.dll; InternalName: PROFAPI.DLL; OriginalFilename: PROFAPI.DLL; FileVersion: 10.0.22621.4541 (WinBuild.160101.0800); FileDescription: User Profile Basic API; Product: Microsoft® Windows® Operating System; ProductVersion: 10.0.22621.4541; Debug: False; Patched: False; PreRelease: False; PrivateBuild: False; SpecialBuild: False; Language: English (United States); 
+Module Memory Size: 176128
+Module Name: MSCTF.dll
+File: C:\WINDOWS\System32\MSCTF.dll; InternalName: MSCTF; OriginalFilename: MSCTF.DLL.MUI; FileVersion: 10.0.22621.4317 (WinBuild.160101.0800); FileDescription: MSCTF Server DLL; Product: Microsoft® Windows® Operating System; ProductVersion: 10.0.22621.4317; Debug: False; Patched: False; PreRelease: False; PrivateBuild: False; SpecialBuild: False; Language: English (United States); 
+Module Memory Size: 1445888
+Module Name: Ptc.License.Plpf.dll
+File: C:\Program Files\PTC\Mathcad Prime 10.0.1.0\Ptc.License.Plpf.dll; InternalName: ; OriginalFilename: ; FileVersion: ; FileDescription: ; Product: ; ProductVersion: ; Debug: False; Patched: False; PreRelease: False; PrivateBuild: False; SpecialBuild: False; Language: ; 
+Module Memory Size: 2285568
+Module Name: WS2_32.dll
+File: C:\WINDOWS\System32\WS2_32.dll; InternalName: ws2_32.dll; OriginalFilename: ws2_32.dll.mui; FileVersion: 10.0.22621.1 (WinBuild.160101.0800); FileDescription: Windows Socket 2.0 32-Bit DLL; Product: Microsoft® Windows® Operating System; ProductVersion: 10.0.22621.1; Debug: False; Patched: False; PreRelease: False; PrivateBuild: False; SpecialBuild: False; Language: English (United States); 
+Module Memory Size: 462848
+Module Name: COMDLG32.dll
+File: C:\WINDOWS\System32\COMDLG32.dll; InternalName: comdlg32; OriginalFilename: comdlg32.dll.mui; FileVersion: 10.0.22621.1 (WinBuild.160101.0800); FileDescription: Common Dialogs DLL; Product: Microsoft® Windows® Operating System; ProductVersion: 10.0.22621.1; Debug: False; Patched: False; PreRelease: False; PrivateBuild: False; SpecialBuild: False; Language: English (United States); 
+Module Memory Size: 1048576
+Module Name: coreutils_sh.dll
+File: C:\Program Files\PTC\Mathcad Prime 10.0.1.0\coreutils_sh.dll; InternalName: ; OriginalFilename: ; FileVersion: ; FileDescription: ; Product: ; ProductVersion: ; Debug: False; Patched: False; PreRelease: False; PrivateBuild: False; SpecialBuild: False; Language: ; 
+Module Memory Size: 4464640
+Module Name: CRYPT32.dll
+File: C:\WINDOWS\System32\CRYPT32.dll; InternalName: CRYPT32.DLL; OriginalFilename: CRYPT32.DLL.MUI; FileVersion: 10.0.22621.1 (WinBuild.160101.0800); FileDescription: Crypto API32; Product: Microsoft® Windows® Operating System; ProductVersion: 10.0.22621.1; Debug: False; Patched: False; PreRelease: False; PrivateBuild: False; SpecialBuild: False; Language: English (United States); 
+Module Memory Size: 1466368
+Module Name: exitlogger_app_sh.dll
+File: C:\Program Files\PTC\Mathcad Prime 10.0.1.0\exitlogger_app_sh.dll; InternalName: ; OriginalFilename: ; FileVersion: ; FileDescription: ; Product: ; ProductVersion: ; Debug: False; Patched: False; PreRelease: False; PrivateBuild: False; SpecialBuild: False; Language: ; 
+Module Memory Size: 2600960
+Module Name: WINTRUST.dll
+File: C:\WINDOWS\System32\WINTRUST.dll; InternalName: WINTRUST.DLL; OriginalFilename: WINTRUST.DLL; FileVersion: 10.0.22621.4541 (WinBuild.160101.0800); FileDescription: Microsoft Trust Verification APIs; Product: Microsoft® Windows® Operating System; ProductVersion: 10.0.22621.4541; Debug: False; Patched: False; PreRelease: False; PrivateBuild: False; SpecialBuild: False; Language: English (United States); 
+Module Memory Size: 466944
+Module Name: coretools_sh.dll
+File: C:\Program Files\PTC\Mathcad Prime 10.0.1.0\coretools_sh.dll; InternalName: ; OriginalFilename: ; FileVersion: ; FileDescription: ; Product: ; ProductVersion: ; Debug: False; Patched: False; PreRelease: False; PrivateBuild: False; SpecialBuild: False; Language: ; 
+Module Memory Size: 1564672
+Module Name: lutilsmt.dll
+File: C:\Program Files\PTC\Mathcad Prime 10.0.1.0\lutilsmt.dll; InternalName: ; OriginalFilename: ; FileVersion: ; FileDescription: ; Product: ; ProductVersion: ; Debug: False; Patched: False; PreRelease: False; PrivateBuild: False; SpecialBuild: False; Language: ; 
+Module Memory Size: 208896
+Module Name: licommonmt.dll
+File: C:\Program Files\PTC\Mathcad Prime 10.0.1.0\licommonmt.dll; InternalName: ; OriginalFilename: ; FileVersion: ; FileDescription: ; Product: ; ProductVersion: ; Debug: False; Patched: False; PreRelease: False; PrivateBuild: False; SpecialBuild: False; Language: ; 
+Module Memory Size: 122880
+Module Name: dlmmgrmt.dll
+File: C:\Program Files\PTC\Mathcad Prime 10.0.1.0\dlmmgrmt.dll; InternalName: ; OriginalFilename: ; FileVersion: ; FileDescription: ; Product: ; ProductVersion: ; Debug: False; Patched: False; PreRelease: False; PrivateBuild: False; SpecialBuild: False; Language: ; 
+Module Memory Size: 151552
+Module Name: asyncoremt.dll
+File: C:\Program Files\PTC\Mathcad Prime 10.0.1.0\asyncoremt.dll; InternalName: ; OriginalFilename: ; FileVersion: ; FileDescription: ; Product: ; ProductVersion: ; Debug: False; Patched: False; PreRelease: False; PrivateBuild: False; SpecialBuild: False; Language: ; 
+Module Memory Size: 663552
+Module Name: baselibmt.dll
+File: C:\Program Files\PTC\Mathcad Prime 10.0.1.0\baselibmt.dll; InternalName: ; OriginalFilename: ; FileVersion: 38,0,2024,253; FileDescription: Creo 10.0.6.0 from PTC; Product: Creo; ProductVersion: 10.0.6.0; Debug: False; Patched: False; PreRelease: False; PrivateBuild: False; SpecialBuild: False; Language: English (United States); 
+Module Memory Size: 1884160
+Module Name: rtlcoremt.dll
+File: C:\Program Files\PTC\Mathcad Prime 10.0.1.0\rtlcoremt.dll; InternalName: ; OriginalFilename: ; FileVersion: ; FileDescription: ; Product: ; ProductVersion: ; Debug: False; Patched: False; PreRelease: False; PrivateBuild: False; SpecialBuild: False; Language: ; 
+Module Memory Size: 421888
+Module Name: NETAPI32.dll
+File: C:\WINDOWS\SYSTEM32\NETAPI32.dll; InternalName: NetApi32.DLL; OriginalFilename: NetApi32.DLL; FileVersion: 10.0.22621.2506 (WinBuild.160101.0800); FileDescription: Net Win32 API DLL; Product: Microsoft® Windows® Operating System; ProductVersion: 10.0.22621.2506; Debug: False; Patched: False; PreRelease: False; PrivateBuild: False; SpecialBuild: False; Language: English (United States); 
+Module Memory Size: 102400
+Module Name: COMCTL32.dll
+File: C:\WINDOWS\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_5.82.22621.3527_none_b43b7f4b638cc64f\COMCTL32.dll; InternalName: COMCTL32; OriginalFilename: COMCTL32.DLL.MUI; FileVersion: 5.82 (WinBuild.160101.0800); FileDescription: Common Controls Library; Product: Microsoft® Windows® Operating System; ProductVersion: 10.0.22621.1; Debug: False; Patched: False; PreRelease: False; PrivateBuild: False; SpecialBuild: False; Language: English (United States); 
+Module Memory Size: 733184
+Module Name: USERENV.dll
+File: C:\WINDOWS\SYSTEM32\USERENV.dll; InternalName: userenv; OriginalFilename: userenv.dll.mui; FileVersion: 10.0.22621.1 (WinBuild.160101.0800); FileDescription: Userenv; Product: Microsoft® Windows® Operating System; ProductVersion: 10.0.22621.1; Debug: False; Patched: False; PreRelease: False; PrivateBuild: False; SpecialBuild: False; Language: English (United States); 
+Module Memory Size: 163840
+Module Name: MSVCP140.dll
+File: C:\Program Files\PTC\Mathcad Prime 10.0.1.0\MSVCP140.dll; InternalName: msvcp140.dll; OriginalFilename: msvcp140.dll; FileVersion: 14.28.29914.0 built by: vcwrkspc; FileDescription: Microsoft® C Runtime Library; Product: Microsoft® Visual Studio®; ProductVersion: 14.28.29914.0; Debug: False; Patched: False; PreRelease: False; PrivateBuild: False; SpecialBuild: False; Language: English (United States); 
+Module Memory Size: 577536
+Module Name: VCRUNTIME140.dll
+File: C:\Program Files\PTC\Mathcad Prime 10.0.1.0\VCRUNTIME140.dll; InternalName: vcruntime140.dll; OriginalFilename: vcruntime140.dll; FileVersion: 14.28.29914.0 built by: vcwrkspc; FileDescription: Microsoft® C Runtime Library; Product: Microsoft® Visual Studio®; ProductVersion: 14.28.29914.0; Debug: False; Patched: False; PreRelease: False; PrivateBuild: False; SpecialBuild: False; Language: English (United States); 
+Module Memory Size: 106496
+Module Name: VCRUNTIME140_1.dll
+File: C:\Program Files\PTC\Mathcad Prime 10.0.1.0\VCRUNTIME140_1.dll; InternalName: vcruntime140_1.dll; OriginalFilename: vcruntime140_1.dll; FileVersion: 14.28.29914.0 built by: vcwrkspc; FileDescription: Microsoft® C Runtime Library; Product: Microsoft® Visual Studio®; ProductVersion: 14.28.29914.0; Debug: False; Patched: False; PreRelease: False; PrivateBuild: False; SpecialBuild: False; Language: English (United States); 
+Module Memory Size: 49152
+Module Name: telecon_utils.dll
+File: C:\Program Files\PTC\Mathcad Prime 10.0.1.0\telecon_utils.dll; InternalName: ; OriginalFilename: ; FileVersion: ; FileDescription: ; Product: ; ProductVersion: ; Debug: False; Patched: False; PreRelease: False; PrivateBuild: False; SpecialBuild: False; Language: ; 
+Module Memory Size: 81920
+Module Name: WSOCK32.dll
+File: C:\WINDOWS\SYSTEM32\WSOCK32.dll; InternalName: wsock32.dll; OriginalFilename: wsock32.dll.mui; FileVersion: 10.0.22621.1 (WinBuild.160101.0800); FileDescription: Windows Socket 32-Bit DLL; Product: Microsoft® Windows® Operating System; ProductVersion: 10.0.22621.1; Debug: False; Patched: False; PreRelease: False; PrivateBuild: False; SpecialBuild: False; Language: English (United States); 
+Module Memory Size: 36864
+Module Name: liappcoremt.dll
+File: C:\Program Files\PTC\Mathcad Prime 10.0.1.0\liappcoremt.dll; InternalName: ; OriginalFilename: ; FileVersion: ; FileDescription: ; Product: ; ProductVersion: ; Debug: False; Patched: False; PreRelease: False; PrivateBuild: False; SpecialBuild: False; Language: ; 
+Module Memory Size: 40960
+Module Name: utfstrmt.dll
+File: C:\Program Files\PTC\Mathcad Prime 10.0.1.0\utfstrmt.dll; InternalName: ; OriginalFilename: ; FileVersion: ; FileDescription: ; Product: ; ProductVersion: ; Debug: False; Patched: False; PreRelease: False; PrivateBuild: False; SpecialBuild: False; Language: ; 
+Module Memory Size: 98304
+Module Name: i18nmt.dll
+File: C:\Program Files\PTC\Mathcad Prime 10.0.1.0\i18nmt.dll; InternalName: ; OriginalFilename: ; FileVersion: ; FileDescription: ; Product: ; ProductVersion: ; Debug: False; Patched: False; PreRelease: False; PrivateBuild: False; SpecialBuild: False; Language: ; 
+Module Memory Size: 315392
+Module Name: WINSPOOL.DRV
+File: C:\WINDOWS\SYSTEM32\WINSPOOL.DRV; InternalName: winspool.drv; OriginalFilename: winspool.drv.mui; FileVersion: 10.0.22621.2506 (WinBuild.160101.0800); FileDescription: Windows Spooler Driver; Product: Microsoft® Windows® Operating System; ProductVersion: 10.0.22621.2506; Debug: False; Patched: False; PreRelease: False; PrivateBuild: False; SpecialBuild: False; Language: English (United States); 
+Module Memory Size: 684032
+Module Name: MPR.dll
+File: C:\WINDOWS\SYSTEM32\MPR.dll; InternalName: mpr.dll; OriginalFilename: mpr.dll.mui; FileVersion: 10.0.22621.1 (WinBuild.160101.0800); FileDescription: Multiple Provider Router DLL; Product: Microsoft® Windows® Operating System; ProductVersion: 10.0.22621.1; Debug: False; Patched: False; PreRelease: False; PrivateBuild: False; SpecialBuild: False; Language: English (United States); 
+Module Memory Size: 122880
+Module Name: oledlg.dll
+File: C:\WINDOWS\SYSTEM32\oledlg.dll; InternalName: OLEDLG.DLL; OriginalFilename: OLEDLG.DLL.MUI; FileVersion: 10.0.22621.1 (WinBuild.160101.0800); FileDescription: OLE User Interface Support; Product: Microsoft® Windows® Operating System; ProductVersion: 10.0.22621.1; Debug: False; Patched: False; PreRelease: False; PrivateBuild: False; SpecialBuild: False; Language: English (United States); 
+Module Memory Size: 233472
+Module Name: IPHLPAPI.DLL
+File: C:\WINDOWS\SYSTEM32\IPHLPAPI.DLL; InternalName: iphlpapi.dll; OriginalFilename: iphlpapi.dll.mui; FileVersion: 10.0.22621.1 (WinBuild.160101.0800); FileDescription: IP Helper API; Product: Microsoft® Windows® Operating System; ProductVersion: 10.0.22621.1; Debug: False; Patched: False; PreRelease: False; PrivateBuild: False; SpecialBuild: False; Language: English (United States); 
+Module Memory Size: 184320
+Module Name: srvcmgrmt.dll
+File: C:\Program Files\PTC\Mathcad Prime 10.0.1.0\srvcmgrmt.dll; InternalName: ; OriginalFilename: ; FileVersion: ; FileDescription: ; Product: ; ProductVersion: ; Debug: False; Patched: False; PreRelease: False; PrivateBuild: False; SpecialBuild: False; Language: ; 
+Module Memory Size: 299008
+Module Name: limanifestmt.dll
+File: C:\Program Files\PTC\Mathcad Prime 10.0.1.0\limanifestmt.dll; InternalName: ; OriginalFilename: ; FileVersion: ; FileDescription: ; Product: ; ProductVersion: ; Debug: False; Patched: False; PreRelease: False; PrivateBuild: False; SpecialBuild: False; Language: ; 
+Module Memory Size: 180224
+Module Name: msi.dll
+File: C:\WINDOWS\SYSTEM32\msi.dll; InternalName: msi; OriginalFilename: msi.dll; FileVersion: 5.0.22621.4541; FileDescription: Windows Installer; Product: Windows Installer - Unicode; ProductVersion: 5.0.22621.4541; Debug: False; Patched: False; PreRelease: False; PrivateBuild: False; SpecialBuild: False; Language: English (United States); 
+Module Memory Size: 3551232
+Module Name: WINMM.dll
+File: C:\WINDOWS\SYSTEM32\WINMM.dll; InternalName: winmm.dll; OriginalFilename: WINMM.DLL.MUI; FileVersion: 10.0.22621.1 (WinBuild.160101.0800); FileDescription: MCI API DLL; Product: Microsoft® Windows® Operating System; ProductVersion: 10.0.22621.1; Debug: False; Patched: False; PreRelease: False; PrivateBuild: False; SpecialBuild: False; Language: English (United States); 
+Module Memory Size: 212992
+Module Name: ucore68.dll
+File: C:\Program Files\PTC\Mathcad Prime 10.0.1.0\ucore68.dll; InternalName: ; OriginalFilename: icuuc68.dll; FileVersion: 68, 2, 0, 0; FileDescription: ICU Common DLL; Product: International Components for Unicode; ProductVersion: 68, 2, 0, 0; Debug: False; Patched: False; PreRelease: False; PrivateBuild: False; SpecialBuild: False; Language: Language Neutral; 
+Module Memory Size: 1720320
+Module Name: xercescmt.dll
+File: C:\Program Files\PTC\Mathcad Prime 10.0.1.0\xercescmt.dll; InternalName: xerces-c_3_2.dll; OriginalFilename: xerces-c_3_2.dll; FileVersion: 3, 2, 5; FileDescription: Shared Library for Xerces-C++ Version 3.2.5; Product: Xerces-C++ Version 3.2.5; ProductVersion: 3, 2, 5; Debug: False; Patched: False; PreRelease: False; PrivateBuild: False; SpecialBuild: False; Language: English (United States); 
+Module Memory Size: 2797568
+Module Name: udata68.dll
+File: C:\Program Files\PTC\Mathcad Prime 10.0.1.0\udata68.dll; InternalName: ; OriginalFilename: icudata68.dll; FileVersion: 68, 2, 0, 0; FileDescription: ICU Data DLL; Product: International Components for Unicode; ProductVersion: 68, 2, 0, 0; Debug: False; Patched: False; PreRelease: False; PrivateBuild: False; SpecialBuild: False; Language: Language Neutral; 
+Module Memory Size: 28594176
+Module Name: SRVCLI.DLL
+File: C:\WINDOWS\SYSTEM32\SRVCLI.DLL; InternalName: SRVCLI.DLL; OriginalFilename: SRVCLI.DLL; FileVersion: 10.0.22621.4249 (WinBuild.160101.0800); FileDescription: Server Service Client DLL; Product: Microsoft® Windows® Operating System; ProductVersion: 10.0.22621.4249; Debug: False; Patched: False; PreRelease: False; PrivateBuild: False; SpecialBuild: False; Language: English (United States); 
+Module Memory Size: 163840
+Module Name: NETUTILS.DLL
+File: C:\WINDOWS\SYSTEM32\NETUTILS.DLL; InternalName: NETUTILS.DLL; OriginalFilename: NETUTILS.DLL; FileVersion: 10.0.22621.2506 (WinBuild.160101.0800); FileDescription: Net Win32 API Helpers DLL; Product: Microsoft® Windows® Operating System; ProductVersion: 10.0.22621.2506; Debug: False; Patched: False; PreRelease: False; PrivateBuild: False; SpecialBuild: False; Language: English (United States); 
+Module Memory Size: 49152
+Module Name: MSASN1.dll
+File: C:\WINDOWS\System32\MSASN1.dll; InternalName: msasn1.dll; OriginalFilename: msasn1.dll; FileVersion: 10.0.22621.2506 (WinBuild.160101.0800); FileDescription: ASN.1 Runtime APIs; Product: Microsoft® Windows® Operating System; ProductVersion: 10.0.22621.2506; Debug: False; Patched: False; PreRelease: False; PrivateBuild: False; SpecialBuild: False; Language: English (United States); 
+Module Memory Size: 73728
+Module Name: urlmon.dll
+File: C:\WINDOWS\SYSTEM32\urlmon.dll; InternalName: UrlMon.dll; OriginalFilename: UrlMon.dll.mui; FileVersion: 11.00.22621.2506 (WinBuild.160101.0800); FileDescription: OLE32 Extensions for Win32; Product: Internet Explorer; ProductVersion: 11.00.22621.2506; Debug: False; Patched: False; PreRelease: False; PrivateBuild: False; SpecialBuild: False; Language: English (United States); 
+Module Memory Size: 2031616
+Module Name: iertutil.dll
+File: C:\WINDOWS\SYSTEM32\iertutil.dll; InternalName: IeRtUtil.dll; OriginalFilename: IeRtUtil.dll.mui; FileVersion: 11.00.22621.1 (WinBuild.160101.0800); FileDescription: Run time utility for Internet Explorer; Product: Internet Explorer; ProductVersion: 11.00.22621.1; Debug: False; Patched: False; PreRelease: False; PrivateBuild: False; SpecialBuild: False; Language: English (United States); 
+Module Memory Size: 2875392
+Module Name: SspiCli.dll
+File: C:\WINDOWS\SYSTEM32\SspiCli.dll; InternalName: sspicli.dll; OriginalFilename: sspicli.dll; FileVersion: 10.0.22621.3810 (WinBuild.160101.0800); FileDescription: Security Support Provider Interface; Product: Microsoft® Windows® Operating System; ProductVersion: 10.0.22621.3810; Debug: False; Patched: False; PreRelease: False; PrivateBuild: False; SpecialBuild: False; Language: English (United States); 
+Module Memory Size: 274432
+Module Name: PROPSYS.dll
+File: C:\WINDOWS\SYSTEM32\PROPSYS.dll; InternalName: propsys.dll; OriginalFilename: propsys.dll.mui; FileVersion: 7.0.22621.3810 (WinBuild.160101.0800); FileDescription: Microsoft Property System; Product: Windows® Search; ProductVersion: 7.0.22621.3810; Debug: False; Patched: False; PreRelease: False; PrivateBuild: False; SpecialBuild: False; Language: English (United States); 
+Module Memory Size: 1052672
+Module Name: virtdisk.dll
+File: C:\WINDOWS\SYSTEM32\virtdisk.dll; InternalName: VIRTDISK.DLL; OriginalFilename: VIRTDISK.DLL; FileVersion: 10.0.22621.3672 (WinBuild.160101.0800); FileDescription: Virtual Disk API DLL; Product: Microsoft® Windows® Operating System; ProductVersion: 10.0.22621.3672; Debug: False; Patched: False; PreRelease: False; PrivateBuild: False; SpecialBuild: False; Language: English (United States); 
+Module Memory Size: 90112
+Module Name: mscorsecimpl.dll
+File: C:\Windows\Microsoft.NET\Framework64\v4.0.30319\mscorsecimpl.dll; InternalName: mscorsecimpl.dll; OriginalFilename: mscorsecimpl.dll; FileVersion: 4.8.9032.0 built by: NET481REL1; FileDescription: Microsoft .NET Security module; Product: Microsoft® .NET Framework; ProductVersion: 4.8.9032.0; Debug: False; Patched: False; PreRelease: False; PrivateBuild: True; SpecialBuild: False; Language: English (United States); 
+Module Memory Size: 135168
+Module Name: imagehlp.dll
+File: C:\WINDOWS\System32\imagehlp.dll; InternalName: IMAGEHLP.DLL; OriginalFilename: IMAGEHLP.DLL; FileVersion: 10.0.22621.1 (WinBuild.160101.0800); FileDescription: Windows NT Image Helper; Product: Microsoft® Windows® Operating System; ProductVersion: 10.0.22621.1; Debug: False; Patched: False; PreRelease: False; PrivateBuild: False; SpecialBuild: False; Language: English (United States); 
+Module Memory Size: 126976
+Module Name: gpapi.dll
+File: C:\WINDOWS\SYSTEM32\gpapi.dll; InternalName: gpapi.dll; OriginalFilename: gpapi.dll.mui; FileVersion: 10.0.22621.1 (WinBuild.160101.0800); FileDescription: Group Policy Client API; Product: Microsoft® Windows® Operating System; ProductVersion: 10.0.22621.1; Debug: False; Patched: False; PreRelease: False; PrivateBuild: False; SpecialBuild: False; Language: English (United States); 
+Module Memory Size: 155648
+Module Name: cryptnet.dll
+File: C:\Windows\System32\cryptnet.dll; InternalName: CRYPTNET.DLL; OriginalFilename: CRYPTNET.DLL; FileVersion: 10.0.22621.1 (WinBuild.160101.0800); FileDescription: Crypto Network Related API; Product: Microsoft® Windows® Operating System; ProductVersion: 10.0.22621.1; Debug: False; Patched: False; PreRelease: False; PrivateBuild: False; SpecialBuild: False; Language: English (United States); 
+Module Memory Size: 204800
+Module Name: WINNSI.DLL
+File: C:\WINDOWS\SYSTEM32\WINNSI.DLL; InternalName: winnsi.dll; OriginalFilename: winnsi.dll; FileVersion: 10.0.22621.1 (WinBuild.160101.0800); FileDescription: Network Store Information RPC interface; Product: Microsoft® Windows® Operating System; ProductVersion: 10.0.22621.1; Debug: False; Patched: False; PreRelease: False; PrivateBuild: False; SpecialBuild: False; Language: English (United States); 
+Module Memory Size: 53248
+Module Name: NSI.dll
+File: C:\WINDOWS\System32\NSI.dll; InternalName: nsi.dll; OriginalFilename: nsi.dll; FileVersion: 10.0.22621.1 (WinBuild.160101.0800); FileDescription: NSI User-mode interface DLL; Product: Microsoft® Windows® Operating System; ProductVersion: 10.0.22621.1; Debug: False; Patched: False; PreRelease: False; PrivateBuild: False; SpecialBuild: False; Language: English (United States); 
+Module Memory Size: 36864
+Module Name: DWMAPI.dll
+File: C:\WINDOWS\SYSTEM32\DWMAPI.dll; InternalName: dwmapi.dll; OriginalFilename: dwmapi.dll.mui; FileVersion: 10.0.22621.1 (WinBuild.160101.0800); FileDescription: Microsoft Desktop Window Manager API; Product: Microsoft® Windows® Operating System; ProductVersion: 10.0.22621.1; Debug: False; Patched: False; PreRelease: False; PrivateBuild: False; SpecialBuild: False; Language: English (United States); 
+Module Memory Size: 176128
+Module Name: d3d9.dll
+File: C:\WINDOWS\SYSTEM32\d3d9.dll; InternalName: D3D9.dll; OriginalFilename: D3D9.dll; FileVersion: 10.0.22621.4541 (WinBuild.160101.0800); FileDescription: Direct3D 9 Runtime; Product: Microsoft® Windows® Operating System; ProductVersion: 10.0.22621.4541; Debug: False; Patched: False; PreRelease: False; PrivateBuild: False; SpecialBuild: False; Language: English (United States); 
+Module Memory Size: 1736704
+Module Name: dxcore.dll
+File: C:\WINDOWS\SYSTEM32\dxcore.dll; InternalName: DXCore; OriginalFilename: DXCore.DLL; FileVersion: 10.0.22621.4541 (WinBuild.160101.0800); FileDescription: DXCore; Product: Microsoft® Windows® Operating System; ProductVersion: 10.0.22621.4541; Debug: False; Patched: False; PreRelease: False; PrivateBuild: False; SpecialBuild: False; Language: English (United States); 
+Module Memory Size: 225280
+Module Name: igdumdim64.dll
+File: C:\WINDOWS\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_4def1a5f4c634bfe\igdumdim64.dll; InternalName: igdumdim64.dll; OriginalFilename: igdumdim64.dll; FileVersion: 31.0.101.5590; FileDescription: User Mode Driver for Intel(R) Graphics Technology; Product: Intel HD Graphics Drivers for Windows(R); ProductVersion: 31.0.101.5590; Debug: False; Patched: False; PreRelease: False; PrivateBuild: False; SpecialBuild: False; Language: English (United States); 
+Module Memory Size: 2568192
+Module Name: igd9dxva64.dll
+File: C:\WINDOWS\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_4def1a5f4c634bfe\igd9dxva64.dll; InternalName: igd9dxva64.dll; OriginalFilename: igd9dxva64.dll; FileVersion: 31.0.101.5590; FileDescription: User Mode Driver for Intel(R) Graphics Technology; Product: Intel HD Graphics Drivers for Windows(R); ProductVersion: 31.0.101.5590; Debug: False; Patched: False; PreRelease: False; PrivateBuild: False; SpecialBuild: False; Language: English (United States); 
+Module Memory Size: 22183936
+Module Name: SETUPAPI.dll
+File: C:\WINDOWS\System32\SETUPAPI.dll; InternalName: SETUPAPI.DLL; OriginalFilename: SETUPAPI.DLL.MUI; FileVersion: 10.0.22621.1 (WinBuild.160101.0800); FileDescription: Windows Setup API; Product: Microsoft® Windows® Operating System; ProductVersion: 10.0.22621.1; Debug: False; Patched: False; PreRelease: False; PrivateBuild: False; SpecialBuild: False; Language: English (United States); 
+Module Memory Size: 4669440
+Module Name: cfgmgr32.dll
+File: C:\WINDOWS\SYSTEM32\cfgmgr32.dll; InternalName: cfgmgr32.dll; OriginalFilename: CFGMGR32.DLL; FileVersion: 10.0.22621.2506 (WinBuild.160101.0800); FileDescription: Configuration Manager DLL; Product: Microsoft® Windows® Operating System; ProductVersion: 10.0.22621.2506; Debug: False; Patched: False; PreRelease: False; PrivateBuild: False; SpecialBuild: False; Language: English (United States); 
+Module Memory Size: 319488
+Module Name: media_bin_64.dll
+File: C:\WINDOWS\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_4def1a5f4c634bfe\media_bin_64.dll; InternalName: media_bin_32.dll; OriginalFilename: media_bin_32.dll; FileVersion: 31.0.101.5590; FileDescription: User Mode Driver for Intel(R) Graphics Technology; Product: Intel HD Graphics Drivers for Windows(R); ProductVersion: 31.0.101.5590; Debug: False; Patched: False; PreRelease: False; PrivateBuild: False; SpecialBuild: False; Language: English (United States); 
+Module Memory Size: 30597120
+Module Name: igdgmm64.dll
+File: C:\WINDOWS\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_4def1a5f4c634bfe\igdgmm64.dll; InternalName: igdgmm64.dll; OriginalFilename: igdgmm64.dll; FileVersion: 31.0.101.5590; FileDescription: User Mode Driver for Intel(R) Graphics Technology; Product: Intel HD Graphics Drivers for Windows(R); ProductVersion: 31.0.101.5590; Debug: False; Patched: False; PreRelease: False; PrivateBuild: False; SpecialBuild: False; Language: English (United States); 
+Module Memory Size: 4456448
+Module Name: directxdatabasehelper.dll
+File: C:\WINDOWS\SYSTEM32\directxdatabasehelper.dll; InternalName: DirectXDatabaseHelper; OriginalFilename: DirectXDatabaseHelper.DLL; FileVersion: 10.0.22621.4541 (WinBuild.160101.0800); FileDescription: DirectXDatabaseHelper; Product: Microsoft® Windows® Operating System; ProductVersion: 10.0.22621.4541; Debug: False; Patched: False; PreRelease: False; PrivateBuild: False; SpecialBuild: False; Language: English (United States); 
+Module Memory Size: 299008
+Module Name: WindowsCodecs.dll
+File: C:\WINDOWS\SYSTEM32\WindowsCodecs.dll; InternalName: WindowsCodecs; OriginalFilename: WindowsCodecs; FileVersion: 10.0.22621.4541 (WinBuild.160101.0800); FileDescription: Microsoft Windows Codecs Library; Product: Microsoft® Windows® Operating System; ProductVersion: 10.0.22621.4541; Debug: False; Patched: False; PreRelease: False; PrivateBuild: False; SpecialBuild: False; Language: English (United States); 
+Module Memory Size: 1769472
+Module Name: PresentationFramework.Aero2.ni.dll
+File: C:\WINDOWS\assembly\NativeImages_v4.0.30319_64\Presentatioaec034ca#\efdae605fae005e0ccea558902112e17\PresentationFramework.Aero2.ni.dll; InternalName: PresentationFramework.Aero2.dll; OriginalFilename: PresentationFramework.Aero2.dll; FileVersion: 4.8.9032.0 built by: NET481REL1; FileDescription: PresentationFramework.Aero2.dll; Product: Microsoft® .NET Framework; ProductVersion: 4.8.9032.0; Debug: False; Patched: False; PreRelease: False; PrivateBuild: True; SpecialBuild: False; Language: English (United States); 
+Module Memory Size: 643072
+Module Name: wtsapi32.dll
+File: C:\WINDOWS\SYSTEM32\wtsapi32.dll; InternalName: wtsapi32.dll; OriginalFilename: wtsapi32.dll; FileVersion: 10.0.22621.1 (WinBuild.160101.0800); FileDescription: Windows Remote Desktop Session Host Server SDK APIs; Product: Microsoft® Windows® Operating System; ProductVersion: 10.0.22621.1; Debug: False; Patched: False; PreRelease: False; PrivateBuild: False; SpecialBuild: False; Language: English (United States); 
+Module Memory Size: 81920
+Module Name: WINSTA.dll
+File: C:\WINDOWS\SYSTEM32\WINSTA.dll; InternalName: winsta; OriginalFilename: winsta.dll; FileVersion: 10.0.22621.4541 (WinBuild.160101.0800); FileDescription: Winstation Library; Product: Microsoft® Windows® Operating System; ProductVersion: 10.0.22621.4541; Debug: False; Patched: False; PreRelease: False; PrivateBuild: False; SpecialBuild: False; Language: English (United States); 
+Module Memory Size: 417792
+Module Name: powrprof.dll
+File: C:\WINDOWS\SYSTEM32\powrprof.dll; InternalName: POWRPROF; OriginalFilename: POWRPROF.DLL.MUI; FileVersion: 10.0.22621.3374 (WinBuild.160101.0800); FileDescription: Power Profile Helper DLL; Product: Microsoft® Windows® Operating System; ProductVersion: 10.0.22621.3374; Debug: False; Patched: False; PreRelease: False; PrivateBuild: False; SpecialBuild: False; Language: English (United States); 
+Module Memory Size: 315392
+Module Name: UMPDC.dll
+File: C:\WINDOWS\SYSTEM32\UMPDC.dll; InternalName: umpdc.dll; OriginalFilename: umpdc.dll; FileVersion: 10.0.22621.1 (WinBuild.160101.0800); FileDescription: User Mode Power Dependency Coordinator; Product: Microsoft® Windows® Operating System; ProductVersion: 10.0.22621.1; Debug: False; Patched: False; PreRelease: False; PrivateBuild: False; SpecialBuild: False; Language: Language Neutral; 
+Module Memory Size: 77824
+Module Name: penimc2_v0400.dll
+File: C:\Windows\Microsoft.NET\Framework64\v4.0.30319\WPF\penimc2_v0400.dll; InternalName: PenImc2_v0400.dll; OriginalFilename: PenImc2_v0400.dll; FileVersion: 4.8.9277.0 built by: NET481REL1LAST_B; FileDescription: Microsoft Tablet PC Component; Product: Microsoft® .NET Framework; ProductVersion: 4.8.9277.0; Debug: False; Patched: False; PreRelease: False; PrivateBuild: True; SpecialBuild: False; Language: English (United States); 
+Module Memory Size: 122880
+Module Name: clbcatq.dll
+File: C:\WINDOWS\System32\clbcatq.dll; InternalName: CLBCATQ.DLL; OriginalFilename: CLBCATQ.DLL; FileVersion: 2001.12.10941.16384 (WinBuild.160101.0800); FileDescription: COM+ Configuration Catalog; Product: Microsoft® Windows® Operating System; ProductVersion: 10.0.22621.3527; Debug: False; Patched: False; PreRelease: False; PrivateBuild: False; SpecialBuild: False; Language: English (United States); 
+Module Memory Size: 720896
+Module Name: wisp.dll
+File: C:\WINDOWS\System32\wisp.dll; InternalName: WISP.DLL; OriginalFilename: WISP.DLL.MUI; FileVersion: 10.0.22621.1 (WinBuild.160101.0800); FileDescription: Microsoft Pen and Touch Input Component; Product: Microsoft® Windows® Operating System; ProductVersion: 10.0.22621.1; Debug: False; Patched: False; PreRelease: False; PrivateBuild: False; SpecialBuild: False; Language: English (United States); 
+Module Memory Size: 282624
+Module Name: atlthunk.dll
+File: C:\WINDOWS\SYSTEM32\atlthunk.dll; InternalName: atlthunk.dll; OriginalFilename: atlthunk.dll; FileVersion: 10.0.22621.1 (WinBuild.160101.0800); FileDescription: atlthunk.dll; Product: Microsoft® Windows® Operating System; ProductVersion: 10.0.22621.1; Debug: False; Patched: False; PreRelease: False; PrivateBuild: False; SpecialBuild: False; Language: English (United States); 
+Module Memory Size: 57344
+Module Name: tpcps.dll
+File: C:\Program Files\Common Files\Microsoft Shared\Ink\tpcps.dll; InternalName: TPCPS.dll; OriginalFilename: TPCPS.dll; FileVersion: 10.0.22621.1 (WinBuild.160101.0800); FileDescription: Microsoft Tablet PC Platform Component; Product: Microsoft® Windows® Operating System; ProductVersion: 10.0.22621.1; Debug: False; Patched: False; PreRelease: False; PrivateBuild: False; SpecialBuild: False; Language: English (United States); 
+Module Memory Size: 102400
+Module Name: dataexchange.dll
+File: C:\WINDOWS\system32\dataexchange.dll; InternalName: DataExchange; OriginalFilename: DataExchange.dll; FileVersion: 10.0.22621.3672 (WinBuild.160101.0800); FileDescription: Data exchange; Product: Microsoft® Windows® Operating System; ProductVersion: 10.0.22621.3672; Debug: False; Patched: False; PreRelease: False; PrivateBuild: False; SpecialBuild: False; Language: English (United States); 
+Module Memory Size: 385024
+Module Name: twinapi.appcore.dll
+File: C:\WINDOWS\system32\twinapi.appcore.dll; InternalName: twinapi.appcore; OriginalFilename: twinapi.appcore.dll.mui; FileVersion: 10.0.22621.1 (WinBuild.160101.0800); FileDescription: twinapi.appcore; Product: Microsoft® Windows® Operating System; ProductVersion: 10.0.22621.1; Debug: False; Patched: False; PreRelease: False; PrivateBuild: False; SpecialBuild: False; Language: English (United States); 
+Module Memory Size: 2768896
+Module Name: IconCodecService.dll
+File: C:\WINDOWS\system32\IconCodecService.dll; InternalName: ICONCODESERVICE.DLL; OriginalFilename: ICONCODESERVICE.DLL; FileVersion: 10.0.22621.1 (WinBuild.160101.0800); FileDescription: Converts a PNG part of the icon to a legacy bmp icon; Product: Microsoft® Windows® Operating System; ProductVersion: 10.0.22621.1; Debug: False; Patched: False; PreRelease: False; PrivateBuild: False; SpecialBuild: False; Language: English (United States); 
+Module Memory Size: 36864
+Module Name: comctl32.dll
+File: C:\WINDOWS\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.22621.4541_none_2710d1c57384c085\comctl32.dll; InternalName: comctl32; OriginalFilename: comctl32.DLL.MUI; FileVersion: 6.10 (WinBuild.160101.0800); FileDescription: User Experience Controls Library; Product: Microsoft® Windows® Operating System; ProductVersion: 10.0.22621.1; Debug: False; Patched: False; PreRelease: False; PrivateBuild: False; SpecialBuild: False; Language: English (United States); 
+Module Memory Size: 2695168
+Module Name: igdinfo64.dll
+File: C:\WINDOWS\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_4def1a5f4c634bfe\igdinfo64.dll; InternalName: igdinfo64.dll; OriginalFilename: igdinfo64.dll; FileVersion: 31.0.101.5590; FileDescription: User Mode Driver for Intel(R) Graphics Technology; Product: Intel HD Graphics Drivers for Windows(R); ProductVersion: 31.0.101.5590; Debug: False; Patched: False; PreRelease: False; PrivateBuild: False; SpecialBuild: False; Language: English (United States); 
+Module Memory Size: 167936
+Module Name: igc64.dll
+File: C:\WINDOWS\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_4def1a5f4c634bfe\igc64.dll; InternalName: IGC; OriginalFilename: igc64.dll; FileVersion: 31.0.101.5590; FileDescription: Intel Graphics Shader Compiler for Intel(R) Graphics Accelerator; Product: Intel HD Graphics Drivers for Windows(R); ProductVersion: 31.0.101.5590; Debug: False; Patched: False; PreRelease: False; PrivateBuild: False; SpecialBuild: False; Language: English (United States); 
+Module Memory Size: 155648
+Module Name: TextShaping.dll
+File: C:\WINDOWS\SYSTEM32\TextShaping.dll; InternalName: textshaping; OriginalFilename: textshaping; FileVersion: 10.0.22621.4541 (WinBuild.160101.0800); FileDescription: Microsoft Text Shaping Library; Product: Microsoft® Windows® Operating System; ProductVersion: 10.0.22621.4541; Debug: False; Patched: False; PreRelease: False; PrivateBuild: False; SpecialBuild: False; Language: English (United States); 
+Module Memory Size: 724992
+Module Name: igc1464.dll
+File: C:\WINDOWS\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_4def1a5f4c634bfe\igc1464.dll; InternalName: IGC; OriginalFilename: igc1464.dll; FileVersion: 31.0.101.5590; FileDescription: Intel Graphics Shader Compiler for Intel(R) Graphics Accelerator; Product: Intel HD Graphics Drivers for Windows(R); ProductVersion: 31.0.101.5590; Debug: False; Patched: False; PreRelease: False; PrivateBuild: False; SpecialBuild: False; Language: English (United States); 
+Module Memory Size: 66097152
+Module Name: textinputframework.dll
+File: C:\WINDOWS\SYSTEM32\textinputframework.dll; InternalName: "TextInputFramework.DYNLINK"; OriginalFilename: "TextInputFramework.DYNLINK"; FileVersion: 10.0.22621.4541 (WinBuild.160101.0800); FileDescription: "TextInputFramework.DYNLINK"; Product: Microsoft® Windows® Operating System; ProductVersion: 10.0.22621.4541; Debug: False; Patched: False; PreRelease: False; PrivateBuild: False; SpecialBuild: False; Language: English (United States); 
+Module Memory Size: 1331200
+Module Name: avrt.dll
+File: C:\WINDOWS\SYSTEM32\avrt.dll; InternalName: avrt.dll; OriginalFilename: avrt.dll.mui; FileVersion: 10.0.22621.1 (WinBuild.160101.0800); FileDescription: Multimedia Realtime Runtime; Product: Microsoft® Windows® Operating System; ProductVersion: 10.0.22621.1; Debug: False; Patched: False; PreRelease: False; PrivateBuild: False; SpecialBuild: False; Language: English (United States); 
+Module Memory Size: 45056
+Module Name: CoreMessaging.dll
+File: C:\WINDOWS\SYSTEM32\CoreMessaging.dll; InternalName: CoreMessaging.dll; OriginalFilename: CoreMessaging.dll; FileVersion: 10.0.22621.4541 (WinBuild.160101.0800); FileDescription: Microsoft CoreMessaging Dll; Product: Microsoft® Windows® Operating System; ProductVersion: 10.0.22621.4541; Debug: False; Patched: False; PreRelease: False; PrivateBuild: False; SpecialBuild: False; Language: English (United States); 
+Module Memory Size: 1257472
+Module Name: CoreUIComponents.dll
+File: C:\WINDOWS\SYSTEM32\CoreUIComponents.dll; InternalName: CoreUIComponents.dll; OriginalFilename: CoreUIComponents.dll; FileVersion: 10.0.22621.4541; FileDescription: Microsoft Core UI Components Dll; Product: Microsoft® Windows® Operating System; ProductVersion: 10.0.22621.4541; Debug: False; Patched: False; PreRelease: False; PrivateBuild: False; SpecialBuild: False; Language: English (United States); 
+Module Memory Size: 3592192
+Module Name: Oleacc.dll
+File: C:\WINDOWS\system32\Oleacc.dll; InternalName: OLEACC; OriginalFilename: OLEACC.DLL; FileVersion: 7.2.22621.1 (WinBuild.160101.0800); FileDescription: Active Accessibility Core Component; Product: Microsoft® Windows® Operating System; ProductVersion: 10.0.22621.1; Debug: False; Patched: False; PreRelease: False; PrivateBuild: False; SpecialBuild: False; Language: Language Neutral; 
+Module Memory Size: 430080
+Module Name: UIAutomationProvider.ni.dll
+File: C:\WINDOWS\assembly\NativeImages_v4.0.30319_64\UIAutomationProvider\d25fd0bcfef8176dfff676094eba4b07\UIAutomationProvider.ni.dll; InternalName: UIAutomationProvider.dll; OriginalFilename: UIAutomationProvider.dll; FileVersion: 4.8.9277.0 built by: NET481REL1LAST_B; FileDescription: UIAutomationProvider.dll; Product: Microsoft® .NET Framework; ProductVersion: 4.8.9277.0; Debug: False; Patched: False; PreRelease: False; PrivateBuild: True; SpecialBuild: False; Language: English (United States); 
+Module Memory Size: 122880
+Module Name: UIAutomationTypes.ni.dll
+File: C:\WINDOWS\assembly\NativeImages_v4.0.30319_64\UIAutomationTypes\b58ee0d0b69b1c5f9d5a664343387a45\UIAutomationTypes.ni.dll; InternalName: UIAutomationTypes.dll; OriginalFilename: UIAutomationTypes.dll; FileVersion: 4.8.9277.0 built by: NET481REL1LAST_B; FileDescription: UIAutomationTypes.dll; Product: Microsoft® .NET Framework; ProductVersion: 4.8.9277.0; Debug: False; Patched: False; PreRelease: False; PrivateBuild: True; SpecialBuild: False; Language: English (United States); 
+Module Memory Size: 753664
+Module Name: UIAutomationCore.dll
+File: C:\WINDOWS\SYSTEM32\UIAutomationCore.dll; InternalName: UIAutomationCore.dll; OriginalFilename: UIAutomationCore.dll.mui; FileVersion: 7.2.22621.1 (WinBuild.160101.0800); FileDescription: Microsoft UI Automation Core; Product: Microsoft® Windows® Operating System; ProductVersion: 10.0.22621.1; Debug: False; Patched: False; PreRelease: False; PrivateBuild: False; SpecialBuild: False; Language: English (United States); 
+Module Memory Size: 4493312
+Module Name: sxs.dll
+File: C:\WINDOWS\SYSTEM32\sxs.dll; InternalName: SXS.DLL; OriginalFilename: SXS.DLL.MUI; FileVersion: 10.0.22621.1 (WinBuild.160101.0800); FileDescription: Fusion 2.5; Product: Microsoft® Windows® Operating System; ProductVersion: 10.0.22621.1; Debug: False; Patched: False; PreRelease: False; PrivateBuild: False; SpecialBuild: False; Language: English (United States); 
+Module Memory Size: 667648
+Module Name: msctfui.dll
+File: C:\WINDOWS\system32\msctfui.dll; InternalName: MSCTFUI; OriginalFilename: MSCTFUI.DLL.MUI; FileVersion: 10.0.22621.1 (WinBuild.160101.0800); FileDescription: MSCTFUI Server DLL; Product: Microsoft® Windows® Operating System; ProductVersion: 10.0.22621.1; Debug: False; Patched: False; PreRelease: False; PrivateBuild: False; SpecialBuild: False; Language: English (United States); 
+Module Memory Size: 204800
+Module Name: dhcpcsvc6.DLL
+File: C:\WINDOWS\SYSTEM32\dhcpcsvc6.DLL; InternalName: dhcpcsvc6.dll; OriginalFilename: dhcpcsvc6.dll.mui; FileVersion: 10.0.22621.1 (WinBuild.160101.0800); FileDescription: DHCPv6 Client; Product: Microsoft® Windows® Operating System; ProductVersion: 10.0.22621.1; Debug: False; Patched: False; PreRelease: False; PrivateBuild: False; SpecialBuild: False; Language: English (United States); 
+Module Memory Size: 102400
+Module Name: dhcpcsvc.DLL
+File: C:\WINDOWS\SYSTEM32\dhcpcsvc.DLL; InternalName: dhcpcsvc.dll; OriginalFilename: dhcpcsvc.dll.mui; FileVersion: 10.0.22621.1 (WinBuild.160101.0800); FileDescription: DHCP Client Service; Product: Microsoft® Windows® Operating System; ProductVersion: 10.0.22621.1; Debug: False; Patched: False; PreRelease: False; PrivateBuild: False; SpecialBuild: False; Language: English (United States); 
+Module Memory Size: 126976
+Module Name: DNSAPI.dll
+File: C:\WINDOWS\SYSTEM32\DNSAPI.dll; InternalName: dnsapi; OriginalFilename: dnsapi; FileVersion: 10.0.22621.1 (WinBuild.160101.0800); FileDescription: DNS Client API DLL; Product: Microsoft® Windows® Operating System; ProductVersion: 10.0.22621.1; Debug: False; Patched: False; PreRelease: False; PrivateBuild: False; SpecialBuild: False; Language: English (United States); 
+Module Memory Size: 1056768
+Module Name: mswsock.dll
+File: C:\WINDOWS\system32\mswsock.dll; InternalName: mswsock.dll; OriginalFilename: mswsock.dll.mui; FileVersion: 10.0.22621.1 (WinBuild.160101.0800); FileDescription: Microsoft Windows Sockets 2.0 Service Provider; Product: Microsoft® Windows® Operating System; ProductVersion: 10.0.22621.1; Debug: False; Patched: False; PreRelease: False; PrivateBuild: False; SpecialBuild: False; Language: English (United States); 
+Module Memory Size: 430080
+Module Name: DEVOBJ.dll
+File: C:\WINDOWS\SYSTEM32\DEVOBJ.dll; InternalName: devinfoset.dll; OriginalFilename: devinfoset.DLL; FileVersion: 10.0.22621.2506 (WinBuild.160101.0800); FileDescription: Device Information Set DLL; Product: Microsoft® Windows® Operating System; ProductVersion: 10.0.22621.2506; Debug: False; Patched: False; PreRelease: False; PrivateBuild: False; SpecialBuild: False; Language: English (United States); 
+Module Memory Size: 180224
+Module Name: System.Drawing.ni.dll
+File: C:\WINDOWS\assembly\NativeImages_v4.0.30319_64\System.Drawing\9019614ab6156db1137a367daf1d41be\System.Drawing.ni.dll; InternalName: System.Drawing.dll; OriginalFilename: System.Drawing.dll; FileVersion: 4.8.9032.0 built by: NET481REL1; FileDescription: .NET Framework; Product: Microsoft® .NET Framework; ProductVersion: 4.8.9032.0; Debug: False; Patched: False; PreRelease: False; PrivateBuild: True; SpecialBuild: False; Language: English (United States); 
+Module Memory Size: 2043904
+Module Name: System.Windows.Forms.ni.dll
+File: C:\WINDOWS\assembly\NativeImages_v4.0.30319_64\System.Windows.Forms\35ea196941c9469d44647b98070d5ecb\System.Windows.Forms.ni.dll; InternalName: System.Windows.Forms.dll; OriginalFilename: System.Windows.Forms.dll; FileVersion: 4.8.9251.0 built by: NET481REL1LAST_C; FileDescription: .NET Framework; Product: Microsoft® .NET Framework; ProductVersion: 4.8.9251.0; Debug: False; Patched: False; PreRelease: False; PrivateBuild: True; SpecialBuild: False; Language: English (United States); 
+Module Memory Size: 17747968
+Module Name: napinsp.dll
+File: C:\WINDOWS\system32\napinsp.dll; InternalName: napinsp.dll; OriginalFilename: napinsp.dll.mui; FileVersion: 10.0.22621.1 (WinBuild.160101.0800); FileDescription: E-mail Naming Shim Provider; Product: Microsoft® Windows® Operating System; ProductVersion: 10.0.22621.1; Debug: False; Patched: False; PreRelease: False; PrivateBuild: False; SpecialBuild: False; Language: English (United States); 
+Module Memory Size: 94208
+Module Name: pnrpnsp.dll
+File: C:\WINDOWS\system32\pnrpnsp.dll; InternalName: pnrpnsp.dll; OriginalFilename: pnrpnsp.dll.mui; FileVersion: 10.0.22621.1 (WinBuild.160101.0800); FileDescription: PNRP Name Space Provider; Product: Microsoft® Windows® Operating System; ProductVersion: 10.0.22621.1; Debug: False; Patched: False; PreRelease: False; PrivateBuild: False; SpecialBuild: False; Language: English (United States); 
+Module Memory Size: 110592
+Module Name: nlansp_c.dll
+File: C:\WINDOWS\system32\nlansp_c.dll; InternalName: NLA Namespace Service Provider DLL; OriginalFilename: nlansp_c.dll; FileVersion: 10.0.22621.4541 (WinBuild.160101.0800); FileDescription: NLA Namespace Service Provider DLL; Product: Microsoft® Windows® Operating System; ProductVersion: 10.0.22621.4541; Debug: False; Patched: False; PreRelease: False; PrivateBuild: False; SpecialBuild: False; Language: English (United States); 
+Module Memory Size: 159744
+Module Name: winrnr.dll
+File: C:\WINDOWS\System32\winrnr.dll; InternalName: winrnr; OriginalFilename: winrnr; FileVersion: 10.0.22621.1 (WinBuild.160101.0800); FileDescription: LDAP RnR Provider DLL; Product: Microsoft® Windows® Operating System; ProductVersion: 10.0.22621.1; Debug: False; Patched: False; PreRelease: False; PrivateBuild: False; SpecialBuild: False; Language: English (United States); 
+Module Memory Size: 69632
+Module Name: wshbth.dll
+File: C:\WINDOWS\system32\wshbth.dll; InternalName: wshbth.dll; OriginalFilename: wshbth.dll; FileVersion: 10.0.22621.3958 (WinBuild.160101.0800); FileDescription: Windows Sockets Helper DLL; Product: Microsoft® Windows® Operating System; ProductVersion: 10.0.22621.3958; Debug: False; Patched: False; PreRelease: False; PrivateBuild: False; SpecialBuild: False; Language: English (United States); 
+Module Memory Size: 86016
+Module Name: System.Xml.Linq.ni.dll
+File: C:\WINDOWS\assembly\NativeImages_v4.0.30319_64\System.Xml.Linq\26f5acd64f8a1c7307918d8c766c4b7d\System.Xml.Linq.ni.dll; InternalName: System.Xml.Linq.dll; OriginalFilename: System.Xml.Linq.dll; FileVersion: 4.8.9032.0 built by: NET481REL1; FileDescription: .NET Framework; Product: Microsoft® .NET Framework; ProductVersion: 4.8.9032.0; Debug: False; Patched: False; PreRelease: False; PrivateBuild: True; SpecialBuild: False; Language: English (United States); 
+Module Memory Size: 495616
+Module Name: ntmarta.dll
+File: C:\WINDOWS\SYSTEM32\ntmarta.dll; InternalName: ntmarta.dll; OriginalFilename: ntmarta.dll.mui; FileVersion: 10.0.22621.1 (WinBuild.160101.0800); FileDescription: Windows NT MARTA provider; Product: Microsoft® Windows® Operating System; ProductVersion: 10.0.22621.1; Debug: False; Patched: False; PreRelease: False; PrivateBuild: False; SpecialBuild: False; Language: English (United States); 
+Module Memory Size: 212992
+Module Name: D3DCOMPILER_47.dll
+File: C:\WINDOWS\SYSTEM32\D3DCOMPILER_47.dll; InternalName: d3dcompiler_47.dll; OriginalFilename: d3dcompiler_47.dll; FileVersion: 10.0.22621.2506 (WinBuild.160101.0800); FileDescription: Direct3D HLSL Compiler; Product: Microsoft® Windows® Operating System; ProductVersion: 10.0.22621.2506; Debug: False; Patched: False; PreRelease: False; PrivateBuild: False; SpecialBuild: False; Language: English (United States); 
+Module Memory Size: 4087808
+Module Name: ApplicationTargetedFeatureDatabase.dll
+File: C:\WINDOWS\system32\ApplicationTargetedFeatureDatabase.dll; InternalName: ApplicationTargetedFeatureDatabase.dll; OriginalFilename: ApplicationTargetedFeatureDatabase.dll; FileVersion: 10.0.22621.4541 (WinBuild.160101.0800); FileDescription: ApplicationTargetedFeatureDatabase; Product: Microsoft® Windows® Operating System; ProductVersion: 10.0.22621.4541; Debug: False; Patched: False; PreRelease: False; PrivateBuild: False; SpecialBuild: False; Language: English (United States); 
+Module Memory Size: 307200
+Module Name: MLANG.DLL
+File: C:\WINDOWS\system32\MLANG.DLL; InternalName: MLANG; OriginalFilename: MLANG.DLL.MUI; FileVersion: 10.0.22621.1 (WinBuild.160101.0800); FileDescription: Multi Language Support DLL; Product: Microsoft® Windows® Operating System; ProductVersion: 10.0.22621.1; Debug: False; Patched: False; PreRelease: False; PrivateBuild: False; SpecialBuild: False; Language: English (United States); 
+Module Memory Size: 270336
+Module Name: DUI70.dll
+File: C:\WINDOWS\System32\DUI70.dll; InternalName: DUI70; OriginalFilename: DUI70.DLL.MUI; FileVersion: 10.0.22621.1 (WinBuild.160101.0800); FileDescription: Windows DirectUI Engine; Product: Microsoft® Windows® Operating System; ProductVersion: 10.0.22621.1; Debug: False; Patched: False; PreRelease: False; PrivateBuild: False; SpecialBuild: False; Language: English (United States); 
+Module Memory Size: 1818624
+Module Name: DUser.dll
+File: C:\WINDOWS\System32\DUser.dll; InternalName: DUser; OriginalFilename: DUser.DLL.MUI; FileVersion: 10.0.22621.1 (WinBuild.160101.0800); FileDescription: Windows DirectUser Engine; Product: Microsoft® Windows® Operating System; ProductVersion: 10.0.22621.1; Debug: False; Patched: False; PreRelease: False; PrivateBuild: False; SpecialBuild: False; Language: English (United States); 
+Module Memory Size: 626688
+Module Name: tiptsf.dll
+File: C:\Program Files\Common Files\microsoft shared\ink\tiptsf.dll; InternalName: TipTsf.dll; OriginalFilename: TipTsf.dll.mui; FileVersion: 10.0.22621.1 (WinBuild.160101.0800); FileDescription: Touch Keyboard and Handwriting Panel Text Services Framework; Product: Microsoft® Windows® Operating System; ProductVersion: 10.0.22621.1; Debug: False; Patched: False; PreRelease: False; PrivateBuild: False; SpecialBuild: False; Language: English (United States); 
+Module Memory Size: 655360
+Module Name: edputil.dll
+File: C:\WINDOWS\SYSTEM32\edputil.dll; InternalName: EDPUTIL.DLL; OriginalFilename: EDPUTIL.DLL.MUI; FileVersion: 10.0.22621.1 (WinBuild.160101.0800); FileDescription: EDP util; Product: Microsoft® Windows® Operating System; ProductVersion: 10.0.22621.1; Debug: False; Patched: False; PreRelease: False; PrivateBuild: False; SpecialBuild: False; Language: English (United States); 
+Module Memory Size: 163840
+Module Name: explorerframe.dll
+File: C:\WINDOWS\system32\explorerframe.dll; InternalName: ExplorerFrame; OriginalFilename: ExplorerFrame.dll.mui; FileVersion: 10.0.22621.3810 (WinBuild.160101.0800); FileDescription: ExplorerFrame; Product: Microsoft® Windows® Operating System; ProductVersion: 10.0.22621.3810; Debug: False; Patched: False; PreRelease: False; PrivateBuild: False; SpecialBuild: False; Language: English (United States); 
+Module Memory Size: 2850816
+Module Name: thumbcache.dll
+File: C:\Windows\System32\thumbcache.dll; InternalName: thumbcache.dll; OriginalFilename: thumbcache.dll.mui; FileVersion: 10.0.22621.1 (WinBuild.160101.0800); FileDescription: Microsoft Thumbnail Cache; Product: Microsoft® Windows® Operating System; ProductVersion: 10.0.22621.1; Debug: False; Patched: False; PreRelease: False; PrivateBuild: False; SpecialBuild: False; Language: English (United States); 
+Module Memory Size: 434176
+Module Name: policymanager.dll
+File: C:\WINDOWS\SYSTEM32\policymanager.dll; InternalName: PolicyManager.dll; OriginalFilename: PolicyManager.dll; FileVersion: 10.0.22621.4541 (WinBuild.160101.0800); FileDescription: Policy Manager DLL; Product: Microsoft® Windows® Operating System; ProductVersion: 10.0.22621.4541; Debug: False; Patched: False; PreRelease: False; PrivateBuild: False; SpecialBuild: False; Language: English (United States); 
+Module Memory Size: 675840
+Module Name: msvcp110_win.dll
+File: C:\WINDOWS\SYSTEM32\msvcp110_win.dll; InternalName: msvcp110_win.dll; OriginalFilename: msvcp110_win.dll; FileVersion: 10.0.22621.1 (WinBuild.160101.0800); FileDescription: Microsoft® STL110 C++ Runtime Library; Product: Microsoft® Windows® Operating System; ProductVersion: 10.0.22621.1; Debug: False; Patched: False; PreRelease: False; PrivateBuild: False; SpecialBuild: False; Language: English (United States); 
+Module Memory Size: 602112
+Module Name: Windows.Globalization.dll
+File: C:\Windows\System32\Windows.Globalization.dll; InternalName: Windows.Globalization.dll; OriginalFilename: Windows.Globalization.dll.MUI; FileVersion: 10.0.22621.2506 (WinBuild.160101.0800); FileDescription: Windows Globalization; Product: Microsoft® Windows® Operating System; ProductVersion: 10.0.22621.2506; Debug: False; Patched: False; PreRelease: False; PrivateBuild: False; SpecialBuild: False; Language: English (United States); 
+Module Memory Size: 1814528
+Module Name: globinputhost.dll
+File: C:\WINDOWS\SYSTEM32\globinputhost.dll; InternalName: globinputhost.dll; OriginalFilename: globinputhost.dll; FileVersion: 10.0.22621.4541 (WinBuild.160101.0800); FileDescription: Windows Globalization Extension API for Input; Product: Microsoft® Windows® Operating System; ProductVersion: 10.0.22621.4541; Debug: False; Patched: False; PreRelease: False; PrivateBuild: False; SpecialBuild: False; Language: English (United States); 
+Module Memory Size: 167936
+Module Name: Bcp47Langs.dll
+File: C:\WINDOWS\SYSTEM32\Bcp47Langs.dll; InternalName: BCP47Lang.dll; OriginalFilename: BCP47Lang.dll; FileVersion: 10.0.22621.3672 (WinBuild.160101.0800); FileDescription: BCP47 Language Classes; Product: Microsoft® Windows® Operating System; ProductVersion: 10.0.22621.3672; Debug: False; Patched: False; PreRelease: False; PrivateBuild: False; SpecialBuild: False; Language: English (United States); 
+Module Memory Size: 393216
+Module Name: NetworkExplorer.dll
+File: C:\WINDOWS\system32\NetworkExplorer.dll; InternalName: NetworkExplorer; OriginalFilename: NetworkExplorer.DLL.MUI; FileVersion: 10.0.22621.1 (WinBuild.160101.0800); FileDescription: Network Explorer; Product: Microsoft® Windows® Operating System; ProductVersion: 10.0.22621.1; Debug: False; Patched: False; PreRelease: False; PrivateBuild: False; SpecialBuild: False; Language: English (United States); 
+Module Memory Size: 106496
+Module Name: Windows.System.Launcher.dll
+File: C:\Windows\System32\Windows.System.Launcher.dll; InternalName: Windows.System.Launcher; OriginalFilename: Windows.System.Launcher.dll.MUI; FileVersion: 10.0.22621.1 (WinBuild.160101.0800); FileDescription: Windows.System.Launcher; Product: Microsoft® Windows® Operating System; ProductVersion: 10.0.22621.1; Debug: False; Patched: False; PreRelease: False; PrivateBuild: False; SpecialBuild: False; Language: English (United States); 
+Module Memory Size: 1298432
+Module Name: windows.staterepositorycore.dll
+File: C:\WINDOWS\SYSTEM32\windows.staterepositorycore.dll; InternalName: Windows StateRepository API core; OriginalFilename: Windows.StateRepositoryCore.dll; FileVersion: 10.0.22621.4036 (WinBuild.160101.0800); FileDescription: Windows StateRepository API Core; Product: Microsoft® Windows® Operating System; ProductVersion: 10.0.22621.4036; Debug: False; Patched: False; PreRelease: False; PrivateBuild: False; SpecialBuild: False; Language: English (United States); 
+Module Memory Size: 106496
+Module Name: XmlLite.dll
+File: C:\WINDOWS\SYSTEM32\XmlLite.dll; InternalName: XmlLite.dll; OriginalFilename: XmlLite.dll; FileVersion: 10.0.22621.2506 (WinBuild.160101.0800); FileDescription: Microsoft XmlLite Library; Product: Microsoft® Windows® Operating System; ProductVersion: 10.0.22621.2506; Debug: False; Patched: False; PreRelease: False; PrivateBuild: False; SpecialBuild: False; Language: Language Neutral; 
+Module Memory Size: 225280
+Module Name: Windows.FileExplorer.Common.dll
+File: C:\Windows\System32\Windows.FileExplorer.Common.dll; InternalName: Windows.FileExplorer.Common; OriginalFilename: Windows.FileExplorer.Common.MUI; FileVersion: 10.0.22621.2506 (WinBuild.160101.0800); FileDescription: Windows.FileExplorer.Common; Product: Microsoft® Windows® Operating System; ProductVersion: 10.0.22621.2506; Debug: False; Patched: False; PreRelease: False; PrivateBuild: False; SpecialBuild: False; Language: English (United States); 
+Module Memory Size: 745472
+Module Name: LINKINFO.dll
+File: C:\WINDOWS\SYSTEM32\LINKINFO.dll; InternalName: LINKINFO; OriginalFilename: LINKINFO.DLL; FileVersion: 10.0.22621.1 (WinBuild.160101.0800); FileDescription: Windows Volume Tracking; Product: Microsoft® Windows® Operating System; ProductVersion: 10.0.22621.1; Debug: False; Patched: False; PreRelease: False; PrivateBuild: False; SpecialBuild: False; Language: English (United States); 
+Module Memory Size: 53248
+Module Name: OneCoreCommonProxyStub.dll
+File: C:\Windows\System32\OneCoreCommonProxyStub.dll; InternalName: OneCoreCommonProxyStub.dll; OriginalFilename: OneCoreCommonProxyStub.dll; FileVersion: 10.0.22621.4541 (WinBuild.160101.0800); FileDescription: OneCore Common Proxy Stub; Product: Microsoft® Windows® Operating System; ProductVersion: 10.0.22621.4541; Debug: False; Patched: False; PreRelease: False; PrivateBuild: False; SpecialBuild: False; Language: English (United States); 
+Module Memory Size: 724992
+Module Name: vaultcli.dll
+File: C:\Windows\System32\vaultcli.dll; InternalName: Credential Vault; OriginalFilename: vaultcli.dll.mui; FileVersion: 10.0.22621.1 (WinBuild.160101.0800); FileDescription: Credential Vault Client Library; Product: Microsoft® Windows® Operating System; ProductVersion: 10.0.22621.1; Debug: False; Patched: False; PreRelease: False; PrivateBuild: False; SpecialBuild: False; Language: English (United States); 
+Module Memory Size: 368640
+Module Name: StructuredQuery.dll
+File: C:\WINDOWS\System32\StructuredQuery.dll; InternalName: StructuredQuery.dll; OriginalFilename: StructuredQuery.dll; FileVersion: 7.0.22621.4541 (WinBuild.160101.0800); FileDescription: Structured Query; Product: Windows® Search; ProductVersion: 7.0.22621.4541; Debug: False; Patched: False; PreRelease: False; PrivateBuild: False; SpecialBuild: False; Language: English (United States); 
+Module Memory Size: 774144
+Module Name: OneCoreUAPCommonProxyStub.dll
+File: C:\Windows\System32\OneCoreUAPCommonProxyStub.dll; InternalName: OneCoreUAPCommonProxyStub.dll; OriginalFilename: OneCoreUAPCommonProxyStub.dll; FileVersion: 10.0.22621.4541 (WinBuild.160101.0800); FileDescription: OneCoreUAP Common Proxy Stub; Product: Microsoft® Windows® Operating System; ProductVersion: 10.0.22621.4541; Debug: False; Patched: False; PreRelease: False; PrivateBuild: False; SpecialBuild: False; Language: English (United States); 
+Module Memory Size: 6475776
+Module Name: Windows.Storage.Search.dll
+File: C:\WINDOWS\system32\Windows.Storage.Search.dll; InternalName: Windows.Storage.Search; OriginalFilename: Windows.Storage.Search.dll.MUI; FileVersion: 10.0.22621.1 (WinBuild.160101.0800); FileDescription: Windows.Storage.Search; Product: Microsoft® Windows® Operating System; ProductVersion: 10.0.22621.1; Debug: False; Patched: False; PreRelease: False; PrivateBuild: False; SpecialBuild: False; Language: English (United States); 
+Module Memory Size: 983040
+Module Name: Windows.StateRepositoryPS.dll
+File: C:\Windows\System32\Windows.StateRepositoryPS.dll; InternalName: Windows StateRepository Proxy/Stub Server; OriginalFilename: Windows.StateRepositoryPS.dll; FileVersion: 10.0.22621.4036 (WinBuild.160101.0800); FileDescription: Windows StateRepository Proxy/Stub Server; Product: Microsoft® Windows® Operating System; ProductVersion: 10.0.22621.4036; Debug: False; Patched: False; PreRelease: False; PrivateBuild: False; SpecialBuild: False; Language: English (United States); 
+Module Memory Size: 962560
+Module Name: windows.staterepositoryclient.dll
+File: C:\WINDOWS\SYSTEM32\windows.staterepositoryclient.dll; InternalName: Windows StateRepository Client API; OriginalFilename: Windows.StateRepositoryClient.dll; FileVersion: 10.0.22621.4036 (WinBuild.160101.0800); FileDescription: Windows StateRepository Client API; Product: Microsoft® Windows® Operating System; ProductVersion: 10.0.22621.4036; Debug: False; Patched: False; PreRelease: False; PrivateBuild: False; SpecialBuild: False; Language: English (United States); 
+Module Memory Size: 249856
+Module Name: windowsudk.shellcommon.dll
+File: C:\WINDOWS\system32\windowsudk.shellcommon.dll; InternalName: Windows Undocked Dev Kit Shellcommon DLL; OriginalFilename: windowsudk.shellcommon.dll; FileVersion: 10.0.22621.4602 (WinBuild.160101.0800); FileDescription: Windows Undocked Dev Kit Shellcommon DLL; Product: Microsoft® Windows® Operating System; ProductVersion: 10.0.22621.4602; Debug: False; Patched: False; PreRelease: False; PrivateBuild: False; SpecialBuild: False; Language: English (United States); 
+Module Memory Size: 5808128
+Module Name: Windows.UI.dll
+File: C:\Windows\System32\Windows.UI.dll; InternalName: Windows Runtime UI Foundation DLL; OriginalFilename: Windows.UI.dll.MUI; FileVersion: 10.0.22621.1 (WinBuild.160101.0800); FileDescription: Windows Runtime UI Foundation DLL; Product: Microsoft® Windows® Operating System; ProductVersion: 10.0.22621.1; Debug: False; Patched: False; PreRelease: False; PrivateBuild: False; SpecialBuild: False; Language: English (United States); 
+Module Memory Size: 1560576
+Module Name: Windows.UI.Immersive.dll
+File: C:\Windows\System32\Windows.UI.Immersive.dll; InternalName: WINDOWS.UI.IMMERSIVE; OriginalFilename: WINDOWS.UI.IMMERSIVE.dll.MUI; FileVersion: 10.0.22621.1 (WinBuild.160101.0800); FileDescription: WINDOWS.UI.IMMERSIVE; Product: Microsoft® Windows® Operating System; ProductVersion: 10.0.22621.1; Debug: False; Patched: False; PreRelease: False; PrivateBuild: False; SpecialBuild: False; Language: English (United States); 
+Module Memory Size: 1527808
+Module Name: coml2.dll
+File: C:\WINDOWS\System32\coml2.dll; InternalName: COML2.DLL; OriginalFilename: COML2.DLL; FileVersion: 10.0.22621.3672 (WinBuild.160101.0800); FileDescription: Microsoft COM for Windows; Product: Microsoft® Windows® Operating System; ProductVersion: 10.0.22621.3672; Debug: False; Patched: False; PreRelease: False; PrivateBuild: False; SpecialBuild: False; Language: English (United States); 
+Module Memory Size: 512000
+Module Name: twinapi.dll
+File: C:\Windows\System32\twinapi.dll; InternalName: twinapi; OriginalFilename: twinapi.dll.mui; FileVersion: 10.0.22621.1 (WinBuild.160101.0800); FileDescription: twinapi; Product: Microsoft® Windows® Operating System; ProductVersion: 10.0.22621.1; Debug: False; Patched: False; PreRelease: False; PrivateBuild: False; SpecialBuild: False; Language: English (United States); 
+Module Memory Size: 827392
+Module Name: p9np.dll
+File: C:\WINDOWS\System32\p9np.dll; InternalName: P9NP.DLL; OriginalFilename: P9NP.DLL; FileVersion: 10.0.22621.4541 (WinBuild.160101.0800); FileDescription: Plan 9 Network Provider; Product: Microsoft® Windows® Operating System; ProductVersion: 10.0.22621.4541; Debug: False; Patched: False; PreRelease: False; PrivateBuild: False; SpecialBuild: False; Language: English (United States); 
+Module Memory Size: 176128
+Module Name: drprov.dll
+File: C:\WINDOWS\System32\drprov.dll; InternalName: DRPROV.DLL; OriginalFilename: DRPROV.DLL.MUI; FileVersion: 10.0.22621.1 (WinBuild.160101.0800); FileDescription: Microsoft Remote Desktop Session Host Server Network Provider; Product: Microsoft® Windows® Operating System; ProductVersion: 10.0.22621.1; Debug: False; Patched: False; PreRelease: False; PrivateBuild: False; SpecialBuild: False; Language: English (United States); 
+Module Memory Size: 49152
+Module Name: ntlanman.dll
+File: C:\WINDOWS\System32\ntlanman.dll; InternalName: ntlanman.dll; OriginalFilename: ntlanman.dll.mui; FileVersion: 10.0.22621.1 (WinBuild.160101.0800); FileDescription: Microsoft® Lan Manager; Product: Microsoft® Windows® Operating System; ProductVersion: 10.0.22621.1; Debug: False; Patched: False; PreRelease: False; PrivateBuild: False; SpecialBuild: False; Language: English (United States); 
+Module Memory Size: 102400
+Module Name: davclnt.dll
+File: C:\WINDOWS\System32\davclnt.dll; InternalName: davclnt.dll; OriginalFilename: davclnt.dll; FileVersion: 10.0.22621.1 (WinBuild.160101.0800); FileDescription: Web DAV Client DLL; Product: Microsoft® Windows® Operating System; ProductVersion: 10.0.22621.1; Debug: False; Patched: False; PreRelease: False; PrivateBuild: False; SpecialBuild: False; Language: English (United States); 
+Module Memory Size: 126976
+Module Name: wkscli.dll
+File: C:\WINDOWS\System32\wkscli.dll; InternalName: WKSCLI.DLL; OriginalFilename: WKSCLI.DLL; FileVersion: 10.0.22621.4249 (WinBuild.160101.0800); FileDescription: Workstation Service Client DLL; Product: Microsoft® Windows® Operating System; ProductVersion: 10.0.22621.4249; Debug: False; Patched: False; PreRelease: False; PrivateBuild: False; SpecialBuild: False; Language: English (United States); 
+Module Memory Size: 106496
+Module Name: cscapi.dll
+File: C:\WINDOWS\SYSTEM32\cscapi.dll; InternalName: cscapi.dll; OriginalFilename: cscapi.dll; FileVersion: 10.0.22621.1 (WinBuild.160101.0800); FileDescription: Offline Files Win32 API; Product: Microsoft® Windows® Operating System; ProductVersion: 10.0.22621.1; Debug: False; Patched: False; PreRelease: False; PrivateBuild: False; SpecialBuild: False; Language: English (United States); 
+Module Memory Size: 73728
+Module Name: dlnashext.dll
+File: C:\Windows\System32\dlnashext.dll; InternalName: DLNA Namespace DLL; OriginalFilename: dlnashext.dll.mui; FileVersion: 10.0.22621.1 (WinBuild.160101.0800); FileDescription: DLNA Namespace DLL; Product: Microsoft® Windows® Operating System; ProductVersion: 10.0.22621.1; Debug: False; Patched: False; PreRelease: False; PrivateBuild: False; SpecialBuild: False; Language: English (United States); 
+Module Memory Size: 380928
+Module Name: PlayToDevice.dll
+File: C:\Windows\System32\PlayToDevice.dll; InternalName: PLAYTODEVICE DLL; OriginalFilename: PlaytoDevice.dll.mui; FileVersion: 10.0.22621.1 (WinBuild.160101.0800); FileDescription: PLAYTODEVICE DLL; Product: Microsoft® Windows® Operating System; ProductVersion: 10.0.22621.1; Debug: False; Patched: False; PreRelease: False; PrivateBuild: False; SpecialBuild: False; Language: English (United States); 
+Module Memory Size: 430080
+Module Name: DevDispItemProvider.dll
+File: C:\Windows\System32\DevDispItemProvider.dll; InternalName: DevDispItemProvider; OriginalFilename: DevDispItemProvider.dll.mui; FileVersion: 10.0.22621.1 (WinBuild.160101.0800); FileDescription: DeviceItem inproc devquery subsystem; Product: Microsoft® Windows® Operating System; ProductVersion: 10.0.22621.1; Debug: False; Patched: False; PreRelease: False; PrivateBuild: False; SpecialBuild: False; Language: English (United States); 
+Module Memory Size: 135168
+Module Name: MMDevApi.dll
+File: C:\WINDOWS\System32\MMDevApi.dll; InternalName: MMDeviceAPI; OriginalFilename: MMDevAPI.Dll.MUI; FileVersion: 10.0.22621.1 (WinBuild.160101.0800); FileDescription: MMDevice API; Product: Microsoft® Windows® Operating System; ProductVersion: 10.0.22621.1; Debug: False; Patched: False; PreRelease: False; PrivateBuild: False; SpecialBuild: False; Language: English (United States); 
+Module Memory Size: 647168
+Module Name: wpdshext.dll
+File: C:\WINDOWS\system32\wpdshext.dll; InternalName: WpdShExt.dll; OriginalFilename: WpdShExt.dll.mui; FileVersion: 10.0.22621.1 (WinBuild.160101.0800); FileDescription: Portable Devices Shell Extension; Product: Microsoft® Windows® Operating System; ProductVersion: 10.0.22621.1; Debug: False; Patched: False; PreRelease: False; PrivateBuild: False; SpecialBuild: False; Language: English (United States); 
+Module Memory Size: 696320
+Module Name: gdiplus.dll
+File: C:\WINDOWS\WinSxS\amd64_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.22621.4541_none_57fbc4aace173a53\gdiplus.dll; InternalName: gdiplus; OriginalFilename: gdiplus; FileVersion: 10.0.22621.4541 (WinBuild.160101.0800); FileDescription: Microsoft GDI+; Product: Microsoft® Windows® Operating System; ProductVersion: 10.0.22621.4541; Debug: False; Patched: False; PreRelease: False; PrivateBuild: False; SpecialBuild: False; Language: English (United States); 
+Module Memory Size: 1810432
+Module Name: PortableDeviceApi.dll
+File: C:\Windows\System32\PortableDeviceApi.dll; InternalName: PortableDeviceApi.dll; OriginalFilename: PortableDeviceApi.dll.mui; FileVersion: 10.0.22621.1 (WinBuild.160101.0800); FileDescription: Windows Portable Device API Components; Product: Microsoft® Windows® Operating System; ProductVersion: 10.0.22621.1; Debug: False; Patched: False; PreRelease: False; PrivateBuild: False; SpecialBuild: False; Language: English (United States); 
+Module Memory Size: 651264
+Module Name: drivefsext.dll
+File: C:\Program Files\Google\Drive File Stream\102.0.2.0\drivefsext.dll; InternalName: drivefsext.dll; OriginalFilename: drivefsext.dll; FileVersion: 102.0.2.0; FileDescription: Google Drive Extensions; Product: Google Drive; ProductVersion: 102.0.2.0; Debug: False; Patched: False; PreRelease: False; PrivateBuild: False; SpecialBuild: False; Language: Language Neutral; 
+Module Memory Size: 26517504
+Module Name: WININET.dll
+File: C:\WINDOWS\SYSTEM32\WININET.dll; InternalName: wininet.dll; OriginalFilename: wininet.dll.mui; FileVersion: 11.00.22621.1 (WinBuild.160101.0800); FileDescription: Internet Extensions for Win32; Product: Internet Explorer; ProductVersion: 11.00.22621.1; Debug: False; Patched: False; PreRelease: False; PrivateBuild: False; SpecialBuild: False; Language: English (United States); 
+Module Memory Size: 5234688
+Module Name: d2d1.dll
+File: C:\WINDOWS\SYSTEM32\d2d1.dll; InternalName: d2d1; OriginalFilename: d2d1; FileVersion: 10.0.22621.1 (WinBuild.160101.0800); FileDescription: Microsoft D2D Library; Product: Microsoft® Windows® Operating System; ProductVersion: 10.0.22621.1; Debug: False; Patched: False; PreRelease: False; PrivateBuild: False; SpecialBuild: False; Language: English (United States); 
+Module Memory Size: 6217728
+Module Name: dbghelp.dll
+File: C:\WINDOWS\SYSTEM32\dbghelp.dll; InternalName: DBGHELP.DLL; OriginalFilename: DBGHELP.DLL; FileVersion: 10.0.22621.3593 (WinBuild.160101.0800); FileDescription: Windows Image Helper; Product: Microsoft® Windows® Operating System; ProductVersion: 10.0.22621.3593; Debug: False; Patched: False; PreRelease: False; PrivateBuild: False; SpecialBuild: False; Language: English (United States); 
+Module Memory Size: 2301952
+Module Name: ntshrui.dll
+File: C:\WINDOWS\SYSTEM32\ntshrui.dll; InternalName: ntshrui; OriginalFilename: ntshrui.dll.mui; FileVersion: 10.0.22621.4541 (WinBuild.160101.0800); FileDescription: Shell extensions for sharing; Product: Microsoft® Windows® Operating System; ProductVersion: 10.0.22621.4541; Debug: False; Patched: False; PreRelease: False; PrivateBuild: False; SpecialBuild: False; Language: English (United States); 
+Module Memory Size: 700416
+Module Name: EhStorAPI.dll
+File: C:\Windows\System32\EhStorAPI.dll; InternalName: EhStorapi.dll; OriginalFilename: EhStorapi.dll.mui; FileVersion: 10.0.22621.1 (WinBuild.160101.0800); FileDescription: Windows Enhanced Storage API; Product: Microsoft® Windows® Operating System; ProductVersion: 10.0.22621.1; Debug: False; Patched: False; PreRelease: False; PrivateBuild: False; SpecialBuild: False; Language: English (United States); 
+Module Memory Size: 147456
+Module Name: wldp.dll
+File: C:\WINDOWS\SYSTEM32\wldp.dll; InternalName: wldp.dll; OriginalFilename: wldp.dll.mui; FileVersion: 10.0.22621.2506 (WinBuild.160101.0800); FileDescription: Windows Lockdown Policy; Product: Microsoft® Windows® Operating System; ProductVersion: 10.0.22621.2506; Debug: False; Patched: False; PreRelease: False; PrivateBuild: False; SpecialBuild: False; Language: English (United States); 
+Module Memory Size: 311296
+Module Name: iaStorAfsServiceApi.dll
+File: C:\WINDOWS\System32\DriverStore\FileRepository\iastorpinningcomponent.inf_amd64_651bb78e61d538aa\iaStorAfsServiceApi.dll; InternalName: iaStorAfsServiceApi.dll; OriginalFilename: iaStorAfsServiceApi.dll; FileVersion: 18.6.1.1016; FileDescription: Intel Optane Pinning API (internal); Product: Intel Optane Pinning API (internal); ProductVersion: 18.6.1.1016; Debug: False; Patched: False; PreRelease: False; PrivateBuild: False; SpecialBuild: False; Language: English (United States); 
+Module Memory Size: 163840
+Module Name: System.ComponentModel.Composition.ni.dll
+File: C:\WINDOWS\assembly\NativeImages_v4.0.30319_64\System.Compba577418#\601b9e0747f62a3db01007038f227635\System.ComponentModel.Composition.ni.dll; InternalName: System.ComponentModel.Composition.dll; OriginalFilename: System.ComponentModel.Composition.dll; FileVersion: 4.8.9032.0; FileDescription: System.ComponentModel.Composition.dll; Product: Microsoft® .NET Framework; ProductVersion: 4.8.9032.0; Debug: False; Patched: False; PreRelease: False; PrivateBuild: False; SpecialBuild: False; Language: Language Neutral; 
+Module Memory Size: 1433600
+Module Name: FileSyncShell64.dll
+File: C:\Users\omnis\AppData\Local\Microsoft\OneDrive\24.232.1118.0003\FileSyncShell64.dll; InternalName: Client Application; OriginalFilename: FileSyncShell64.dll; FileVersion: 24.232.1118.0003; FileDescription: Microsoft OneDrive Shell Extension; Product: Microsoft OneDrive; ProductVersion: 24.232.1118.0003; Debug: False; Patched: False; PreRelease: False; PrivateBuild: False; SpecialBuild: True; Language: English (United States); 
+Module Memory Size: 1921024
+Module Name: Secur32.dll
+File: C:\WINDOWS\SYSTEM32\Secur32.dll; InternalName: secur32.dll; OriginalFilename: secur32.dll; FileVersion: 10.0.22621.1 (WinBuild.160101.0800); FileDescription: Security Support Provider Interface; Product: Microsoft® Windows® Operating System; ProductVersion: 10.0.22621.1; Debug: False; Patched: False; PreRelease: False; PrivateBuild: False; SpecialBuild: False; Language: English (United States); 
+Module Memory Size: 49152
+Module Name: ActXPrxy.dll
+File: C:\Windows\System32\ActXPrxy.dll; InternalName: ActXPrxy.dll; OriginalFilename: ActXPrxy.dll; FileVersion: 10.0.22621.3958 (WinBuild.160101.0800); FileDescription: ActiveX Interface Marshaling Library; Product: Microsoft® Windows® Operating System; ProductVersion: 10.0.22621.3958; Debug: False; Patched: False; PreRelease: False; PrivateBuild: False; SpecialBuild: False; Language: English (United States); 
+Module Memory Size: 524288
+Module Name: wtdccm.dll
+File: C:\WINDOWS\System32\wtdccm.dll; InternalName: ; OriginalFilename: ; FileVersion: ; FileDescription: ; Product: ; ProductVersion: ; Debug: False; Patched: False; PreRelease: False; PrivateBuild: False; SpecialBuild: False; Language: ; 
+Module Memory Size: 94208
+Module Name: psapi.dll
+File: C:\WINDOWS\System32\psapi.dll; InternalName: PSAPI; OriginalFilename: PSAPI; FileVersion: 10.0.22621.1 (WinBuild.160101.0800); FileDescription: Process Status Helper; Product: Microsoft® Windows® Operating System; ProductVersion: 10.0.22621.1; Debug: False; Patched: False; PreRelease: False; PrivateBuild: False; SpecialBuild: False; Language: English (United States); 
+Module Memory Size: 32768
+Module Name: System.Data.SqlXml.ni.dll
+File: C:\WINDOWS\assembly\NativeImages_v4.0.30319_64\System.Data.SqlXml\78dd31c40ecd151c1e0942821f76c026\System.Data.SqlXml.ni.dll; InternalName: System.Data.SqlXml.dll; OriginalFilename: System.Data.SqlXml.dll; FileVersion: 4.8.9032.0 built by: NET481REL1; FileDescription: .NET Framework; Product: Microsoft® .NET Framework; ProductVersion: 4.8.9032.0; Debug: False; Patched: False; PreRelease: False; PrivateBuild: True; SpecialBuild: False; Language: English (United States); 
+Module Memory Size: 3158016
+Module Name: diasymreader.dll
+File: C:\Windows\Microsoft.NET\Framework64\v4.0.30319\diasymreader.dll; InternalName: diasymreader.dll; OriginalFilename: diasymreader.dll; FileVersion: 14.8.9241.0 built by: NET481REL1LAST_C; FileDescription: Dia based SymReader; Product: Microsoft® .NET Framework; ProductVersion: 14.8.9241.0; Debug: False; Patched: False; PreRelease: False; PrivateBuild: False; SpecialBuild: False; Language: English (United States); 
+Module Memory Size: 1314816
+
+
+
